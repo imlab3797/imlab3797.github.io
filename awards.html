@@ -4,40 +4,265 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IMLAB | Awards</title>
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<style>
+.section {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.info-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.year-badge {
+    font-size: 0.85rem;
+    background: #0d6efd;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.fade-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
+
 </head>
 
 <body>
 
 <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
 <div class="container">
-<a class="navbar-brand" href="index.html">IMLAB</a>
+<a class="navbar-brand fw-bold" href="index.html">IMLAB</a>
 </div>
 </nav>
 
-<section class="section">
+<!-- ================= AWARDS ================= -->
+<section class="section bg-light fade-section">
 <div class="container">
-<h2 class="section-title text-center">Awards & Recognition</h2>
+<h2 class="section-title text-center">Awards</h2>
 
-<div class="paper">
-Excellent Researcher – Ministry of Science and ICT (2020)
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Excellent Researcher</h5>
+<p class="mb-2">
+<a href="https://www.msit.go.kr/eng/index.do" target="_blank">
+Ministry of Science and ICT, Korea
+</a>
+</p>
+<p>Minister’s citation for knowledge sharing and excellence in engineering research.</p>
+<span class="year-badge">2020</span>
+</div>
 </div>
 
-<div class="paper">
-Daeyang Academic Achievement Award – Sejong University (2018)
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Daeyang Academic Achievement Award (1st Award)</h5>
+<p>
+<a href="https://en.sejong.ac.kr/eng/index.do" target="_blank">
+Sejong University, Seoul, Korea
+</a>
+</p>
+<span class="year-badge">2018</span>
+</div>
 </div>
 
-<div class="paper">
-Outstanding Research Award – Sejong University (2005)
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Aejieon Academic Achievement Award (2nd Award)</h5>
+<p>
+<a href="https://en.sejong.ac.kr/eng/index.do" target="_blank">
+Sejong University, Seoul, Korea
+</a>
+</p>
+<span class="year-badge">2016</span>
+</div>
 </div>
 
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Outstanding Research Award</h5>
+<p>
+<a href="https://en.sejong.ac.kr/eng/index.do" target="_blank">
+Sejong University, Seoul, Korea
+</a>
+</p>
+<span class="year-badge">2005</span>
+</div>
+</div>
+
+</div>
 </div>
 </section>
 
-<footer>
-<p>© 2026 Intelligent Media Laboratory (IMLAB), Sejong University</p>
+
+<!-- ================= RECOGNITION ================= -->
+<section class="section fade-section">
+<div class="container">
+<h2 class="section-title text-center">Recognition</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Guest Editor</h5>
+<p>
+Special Issue on “AI-Enabled Advanced Sensing for Human Action and Activity Recognition”
+</p>
+<p>
+<a href="https://www.mdpi.com/journal/sensors/special_issues/HAAR" target="_blank">
+Sensors Journal
+</a> – March 30, 2021
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>General Co-Chair</h5>
+<p>
+<a href="https://www.nlpir.net/2020.html" target="_blank">
+NLPIR 2020 – International Conference on Natural Language Processing and Information Retrieval
+</a>
+</p>
+<p>Seoul, Korea | Dec 18–20, 2020</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>General Chair</h5>
+<p>
+<a href="http://www.icngc.org/bbs/content.php?co_id=sub1_4" target="_blank">
+ICNGC 2018 – 4th International Conference on Next Generation Computing
+</a>
+</p>
+<p>Vung Tau City, Vietnam | Dec 20–23, 2018</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>General Chair</h5>
+<p>
+<a href="http://www.icngc.org/bbs/content.php?co_id=sub1_1" target="_blank">
+ICNGC 2017 – 3rd International Conference on Next Generation Computing
+</a>
+</p>
+<p>Kaohsiung, Taiwan | Dec 21–24, 2017</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>General Chair</h5>
+<p>
+<a href="http://www.icngc.org/bbs/content.php?co_id=sub1_3" target="_blank">
+ICNGC 2016 – 1st International Conference on Next Generation Computing
+</a>
+</p>
+<p>Bangkok, Thailand | Jan 28–30, 2016</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- ================= RECENT TALKS ================= -->
+<section class="section bg-light fade-section">
+<div class="container">
+<h2 class="section-title text-center">Recent Talks</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Keynote Speaker</h5>
+<p>
+<a href="https://events.vtools.ieee.org/m/285301" target="_blank">
+ICDIH 2020 – 2nd International Conference on Design with Intelligence and Humanity
+</a>
+</p>
+<p>Yunlin, Taiwan | Nov 2020</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Keynote Speaker</h5>
+<p>
+<a href="https://dblp.org/db/conf/kse/kse2019.html" target="_blank">
+KSE 2019 – 11th IEEE International Conference on Knowledge and Systems Engineering
+</a>
+</p>
+<p>Da Nang, Vietnam | Oct 2019</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card info-card p-4 h-100">
+<h5>Keynote Speaker</h5>
+<p>
+<a href="https://events.vtools.ieee.org/m/241476" target="_blank">
+ICDIH 2019 – International Conference on Design with Intelligence and Humanity
+</a>
+</p>
+<p>Yunlin, Taiwan | Nov 2019</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<footer class="text-center py-4 bg-white border-top">
+<p class="mb-0">© 2026 Intelligent Media Laboratory (IMLAB), Sejong University</p>
 </footer>
+
+
+<script>
+const sections = document.querySelectorAll('.fade-section');
+
+const observer = new IntersectionObserver(entries => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add('show');
+}
+});
+}, { threshold: 0.2 });
+
+sections.forEach(section => {
+observer.observe(section);
+});
+</script>
 
 </body>
 </html>
