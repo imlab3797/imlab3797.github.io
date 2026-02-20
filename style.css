@@ -115,3 +115,22 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.info-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.year-badge {
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
