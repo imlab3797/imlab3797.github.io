@@ -134,3 +134,8 @@ footer {
   padding: 5px 10px;
   border-radius: 20px;
 }
+
+.nav-logo{
+  height: 40px;     /* adjust size */
+  width: auto;
+}
