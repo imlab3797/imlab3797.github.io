@@ -1,0 +1,58 @@
+- name: Home
+  link: "/"
+  group: home
+
+# - name: Philosophy
+#   link: "/philosophy"
+#   group: philosophy
+
+- name: Research
+  group: research
+  dropdown:
+    - name: Overview
+      group: research
+      link: "/research"
+    # - name: Learning + Control Theory
+    #   group: research
+    #   link: "/research/control_learning"
+    - name: Research Projects
+      group: research
+      link: "/research/projects"
+
+- name: People
+  group: members
+  dropdown:
+    # - name: Principle Investigators
+    #   group: members
+    #   link: "/members/PI"
+    - name: Current Members
+      group: members
+      link: "/members/researcher"
+    - name: Alumni
+      group: members
+      link: "/members/alumni"
+
+- name: Publications
+  link: "/publications"
+  group: publications
+
+- name: Facilities
+  link: "/facilities"
+  group: facilities
+
+- name: Teaching
+  link: "/courses"
+  group: courses
+
+- name: News & Events
+  link: "/news"
+  group: news
+
+- name: Join
+  link: "/join"
+  group: join
+
+- name: Contact
+  link: "/contact"
+  group: contact
+

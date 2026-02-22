@@ -1,0 +1,48 @@
+name: "Intelligent Media Laboratortyy (Imlab)"
+description: "This is the official web page for the Intelligent Media Laboratortyy (Imlab) at Sejong University."
+
+# url: "http://kaistmic.com"
+url: "https://kaist-mic-lab.github.io"
+
+paginate: 10
+plugins: [jekyll-paginate, jekyll-sitemap]
+paginate_path: "news/page:num"
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+collections:
+        affiliates:
+                output: true
+        members:
+                output: true
+        research:
+                output: true                
+        publications:
+                output: true
+        reviews:
+                output: true
+        alumni:
+                output: true
+        sep:
+                output: true
+        visitors:
+                output: true
+        undergrads:
+                output: true
+        tags:
+                output: true

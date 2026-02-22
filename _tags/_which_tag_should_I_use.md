@@ -1,0 +1,7 @@
+award(수상실적)
+talk(초청세미나, 연구실 주관/참석 학술행사 등)
+conference(학회참석)
+publication(학회/저널 논문 accept)
+service(보직, 위원회 등)
+media(언론보도)
+life (연구실 일상)

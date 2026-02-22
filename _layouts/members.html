@@ -1,0 +1,100 @@
+{% include header.html %}
+<div id = "{{page.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid" src="{{page.image}}" {% if page.altimage %} onmouseover="this.src='{{page.altimage}}';" onmouseout="this.src='{{page.image}}';" {% endif %} alt="{{page.name}}"; width="265"; height="365"><br>
+
+        {% assign last_position = page.positions | last %}
+
+        {% if last_position.name == "Principal Investigator" %}
+          {{page.name}}, Ph.D. <br>
+          {{ page.kr_name }} <br>
+        {% else %}
+          {{page.name}}
+          / {{ page.kr_name }} <br>
+        {% endif %}
+          
+        <!-- {% if page.pronouns %}
+          <em>{{page.pronouns}}</em> <br>
+        {% endif %} -->
+
+        {{last_position.name | markdownify | remove: '<p>' | remove: '</p>' }} <br>
+        <em><a href="mailto:{{page.email}}">{{page.email}}</a></em> <br>
+        {% if page.website %}
+          <a style="overflow-wrap: break-word;" href= "{{page.website}}">{{page.website}}</a> <br>
+        {% endif %}
+
+        {% if page.cv %}
+          <a href="{{ page.cv }}" title = "{{page.name}}'s CV" target="_blank">📄 Curriculum Vitae (CV)</a> <br>
+        {% endif %}
+
+        {% if page.orcid %}
+          <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg"></a>
+          <a href="http://orcid.org/{{page.orcid}}"> {{page.orcid}}</a> <br>
+        {% endif %}
+
+        {% if page.scholar %}
+          <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
+          <a href= "http://scholar.google.com/citations?user={{page.scholar}}">Google Scholar</a> <br>
+        {% endif %}
+
+        {% if page.linkedin %}
+          <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
+          <a href= "http://www.linkedin.com/in/{{page.linkedin}}"> Linkedin </a> <br>
+        {% endif %}
+
+        {% if page.researchgate %}
+                  <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/researchGate_logo.svg"></a>
+                  <a href="https://www.researchgate.net/profile/{{page.researchgate}}">{{page.researchgate}}</a> <br>
+                {% endif %}
+
+        {% if page.github %}
+          <a href="http://github.com"><img class="inline-block mem-icon" src="/static/img/logo/github_logo.svg"></a>
+          <a href= "http://github.com/{{page.github}}">{{page.github}}</a> <br>
+        {% endif %}
+
+        {% if page.iris %}
+          <a href="https://www.iris.go.kr/enMain.do"><img class="inline-block mem-icon" src="/static/img/logo/iris_logo.png"></a>
+          {{page.iris}} <br>
+        {% endif %}
+
+    </div>
+    <div class="col-sm-9">
+       <h2>Description</h2>
+        {{page.description | markdownify}}
+  
+        <div class="col-sm-12 col-md-12">
+          {{ content }}
+        </div>
+
+        {% if page.position == "Principal Investigator" %}
+          
+        {% else %}
+
+          {% assign isTherePubs = "no" %}
+          {% for pub in site.publications %}
+            {% for author in pub.authors %}
+              {% if author.name contains page.name %}
+                {% assign isTherePubs = "yes" %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if isTherePubs == "yes" %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if isTherePubs == "yes" %}
+            <hr>
+            <h2>Publications in MIC Lab</h2>
+
+            {% assign targetName = page.name %}
+            {% include publication_with.html %}
+
+          {% endif %}
+
+        {% endif %}
+        
+  </div>
+
+</div>
+{% include footer.html %}

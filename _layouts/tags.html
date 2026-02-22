@@ -1,0 +1,27 @@
+---
+layout: default 
+---
+
+<div class="container-fluid">
+    <h1>Articles tagged with "{{ page.tag-name }}"</h1>
+
+
+    {% assign filtered = "" | split: "" %}
+    {% for post in site.posts %}
+        {% if post.tags contains page.tag-name %}
+            {% assign filtered = filtered | push: post %}
+        {% endif %}
+    {% endfor %}
+
+
+    {% if filtered.size == 0 %}
+        No posts found with this tag.
+        
+    {% else %}    
+        <ul style='padding-top: 16px;'></ul>
+            {% for post in filtered %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a>, published {{ post.date | date: "%Y-%m-%d" }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>

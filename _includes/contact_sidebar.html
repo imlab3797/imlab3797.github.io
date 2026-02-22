@@ -1,0 +1,47 @@
+
+
+<h4>Contact Us</h4>
+<p>
+  <a href={{ site.url }}/members/khChoi>Kyunghwan Choi, Ph.D.</a>
+  <br>
+  Assistant Professor <br>
+  CCS Graduate School of Mobility <br>
+  KAIST <br>
+  <br>
+  Phone: <a href="tel:+82-42-350-1764">+82-42-350-1764</a> <br>
+  Email: <a href="mailto:kh.choi@kaist.ac.kr">kh.choi@kaist.ac.kr</a> <br>
+  <br>
+  F405 (Office), F417 (Lab) <br>
+  Korea Postcode 34051 <br>
+  193, Munji-ro, Yuseong-gu <br>
+  Daejeon, Republic of Korea <br>
+</p>
+
+<p>
+  <h4> Join Us </h4>
+  We are actively seeking highly motivated students and researchers who are eager to contribute to our mission. 
+  Open positions are listed on our <a href="{{ site.url }}/join">Join</a> page.
+  <br>
+
+<p>
+  <h4> 
+    Visit Our GitHub <a href="https://github.com/KAIST-MIC-Lab"><img class="inline-bloc mem-icon" src="/static/img/logo/github_logo.svg"></a>
+  </h4>
+  We share our research code on <a href="https://github.com/KAIST-MIC-Lab" target="_blank">GitHub</a>.
+</p>
+
+<p>
+  <h4> 
+    Watch Our Videos <a href="https://www.youtube.com/channel/UCwMUKImiGPZNtKvb2F5kNQQ"><img class="inline-bloc mem-icon" src="/static/img/logo/YouTube_logo.svg"></a>
+  </h4>
+  Research videos are available on our <a href="https://www.youtube.com/channel/UCwMUKImiGPZNtKvb2F5kNQQ" target="_blank">YouTube</a>.
+</p>
+
+<p>
+  <h4> Recent Posts </h4>
+  <ul>
+    {% for post in site.posts limit: 5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</p>

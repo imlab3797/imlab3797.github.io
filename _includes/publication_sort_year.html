@@ -1,0 +1,157 @@
+
+{% assign sorted = data | sort: "pub_date" | reverse %}
+
+    {% assign last_year = "" %}
+
+<ol | reversed>
+{% for publication in sorted %}
+
+    {% assign year = publication.pub_date | date: "%Y" %}
+    {% if year != last_year %}
+    <br>
+        <h6 style="text-align: center; color: rgb(0, 0, 0);">
+            {{ year }}
+        </h6>
+        {% assign last_year = year %}
+    {% endif %}
+    
+    <li>
+        <h8>
+            <a href="{{ publication.url }}">{{ publication.title }}</a>
+            {% if publication.domestic_or_international contains "Domestic" %}
+                    <br>
+                    <i>{{ publication.krtitle }}</i>
+            {% endif %}
+        </h8>
+
+        <br>
+
+        <h8>
+            {% for author in publication.authors %}
+                {% assign memberName = author.name %}
+                {% include memberLink.html %}
+                
+                {%- if memberUrl != "not Included" -%}
+                    <!-- Member profile -->
+                    {%- if memberName contains page.name -%}
+                        <a href="{{ site.url }}/members/{{ memberUrl }}" title = "{{memberName}}'s profile (opens in new tab)" target="_blank" style="color: rgb(0, 0, 0)"><u><b>{{ memberName }}</b></u></a>
+                    <!-- Publication Tap -->
+                    {%- else -%}
+                        <a href="{{ site.url }}/members/{{ memberUrl }}" title = "{{memberName}}'s profile (opens in new tab)" target="_blank" style="color: rgb(0, 0, 0)">{{ memberName }}</a>
+                    {%- endif -%}
+                {%- else -%}
+                    <a style="color: rgba(0, 0, 0, 0.498)">{{ memberName }}</a>
+                {%- endif -%}
+                {%- if author.corresponding -%}&#42;{% endif %}
+                {%- if forloop.last == false -%}, {% endif %}
+                
+            {% endfor %}
+        </h8>
+
+        <br>
+
+        <h8>
+            {% if publication.type contains "Ph.D. Dissertation" or publication.type contains "Master's Thesis" %}
+
+                <!-- Dissertations -->
+                {% assign diss_info = publication.pub | last %}
+                <i><b>{{ diss_info.name }}</b></i>{% if diss_info.year %}, {{ diss_info.year }}{% endif %}                
+
+                {% if diss_info.pdf %}
+                    <a href="{{diss_info.pdf}}" class="custom-color-link" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank">[📃 Full-Text]</a>
+                {% endif %}
+                {% if diss_info.bib %}
+                    <a href="{{diss_info.bib}}" class="custom-color-link" title = "BibTex for {{publication.title}} (opens in new tab)" target="_blank">[💾 Cite]</a>
+                {% endif %}
+
+
+            {% elsif publication.pub %}
+                
+                <!-- Publications -->
+                {% assign pub = publication.pub | last %}
+
+                <i><b>{{ pub.name }}</b></i>
+                {%- if pub.state contains "accepted" -%}(<b>accepted</b>, in press){%- endif -%}{% if pub.vol %}, vol. {{ pub.vol }}{% endif %}{% if pub.num %}, no. {{ pub.num }}{% endif %}{% if pub.pp %}, pp. {{ pub.pp }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
+                
+                {% if publication.preprint %}
+                    {% assign pre_info = publication.preprint | last %}
+                {% endif %}
+
+                {% if pub.url and publication.domestic_or_international contains "Domestic" %} 
+                    <a href="{{pub.url}}" class="custom-color-link" title = "URL for {{publication.title}} (opens in new tab)" target="_blank">[🌐 DBpia Online]</a>
+                {% else %}
+                    {% if pub.doi %}
+                        <a href="https://doi.org/{{ pub.doi }}" class="custom-color-link" title = "DOI: {{pub.doi}} (opens in new tab)" target="_blank">[🌐 Online]</a>
+                    {% elsif pre_info.doi and publication.preprint %}
+                        <a href="https://doi.org/{{ pre_info.doi }}" class="custom-color-link" title = "DOI: {{pre_info.doi}} (opens in new tab)" target="_blank">[🌐 Preprint]</a>
+                    {% endif %}
+                {% endif %}
+
+                {% if pub.pdf %}
+                    <a href="{{pub.pdf}}" class="custom-color-link" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank">[📃 Full-Text]</a>
+                {% elsif pre_info.pdf and publication.preprint %}
+                    <a href="{{pre_info.pdf}}" class="custom-color-link" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank">[📃 Full-Text]</a>
+                {% endif %}
+
+                {% if pub.pres %}
+                    <a href="{{pub.pres}}" class="custom-color-link" title = "Presentation for {{publication.title}} (opens in new tab)" target="_blank">[🎥 Presentation]</a>
+                {% endif %}
+
+                {% if pub.bib %}
+                    <a href="{{pub.bib}}" class="custom-color-link" title = "BibTex for {{publication.title}} (opens in new tab)" target="_blank">[💾 Cite]</a>
+                {% endif %}
+                                
+                {% if publication.github %}
+                    {% assign github = publication.github | last %}
+                        <a href="https://www.github.com/{{github.url}}"
+                            class="custom-color-link"
+                            title="GitHub for {{publication.title}} (opens in new tab)"
+                            target="_blank">
+                            [<img class="inline-bloc mem-icon" src="/static/img/logo/github_logo.svg" alt="GitHub logo"> Code]
+                        </a>
+                {% endif %}
+
+                {% if publication.Youtube %}
+                    {% for video in publication.Youtube %}
+                        {% if video.representative %}
+                            <a href="https://youtu.be/{{video.url}}"
+                            class="custom-color-link"
+                            title="Youtube Video for {{publication.title}} (opens in new tab)"
+                            target="_blank">
+                            [<img class="inline-bloc mem-icon" src="/static/img/logo/YouTube_logo.svg" alt="YouTube logo"> Video]
+                        </a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+            {% else %}
+                <!-- Preprints -->
+                {% assign pre_info = publication.preprint | last %}
+                <i><b>{{ pre_info.name }}</b></i>{% if pre_info.year %}, {{ pre_info.year }}{% endif %}                
+                                
+                {% if pre_info.doi %}
+                    <a href="https://doi.org/{{ pre_info.doi }}" class="custom-color-link" title = "DOI: {{pre_info.doi}} (opens in new tab)" target="_blank">[🌐 Preprint Online]</a>
+                {% endif %}
+                {% if pre_info.pdf %}
+                    <a href="{{pre_info.pdf}}" class="custom-color-link" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank">[📃 Preprint Full-Text]</a>
+                {% endif %}
+                {% if pre_info.bib %}
+                    <a href="{{pre_info.bib}}" class="custom-color-link" title = "BibTex for {{publication.title}} (opens in new tab)" target="_blank">[💾 Preprint Cite]</a>
+                {% endif %}
+
+            {% endif %}
+
+            {% if publication.additional %}
+                <br>
+                <ul>
+                    {{ publication.additional | markdownify | remove: '<p>' | remove: '</p>' }}
+                </ul>
+            {% endif %}
+                
+        </h8>
+
+    </li>
+
+{% endfor %}
+</ol>
+<hr>
