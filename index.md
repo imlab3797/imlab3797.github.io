@@ -8,9 +8,9 @@ group: home
 
 <div style="text-align: center; margin-bottom: 5px;">
   
-## <b>Mobility Intelligence and Control Laboratory</b>
+## <b>Intelligent Media Laboratory</b>
 <!-- {: .welcomefont} -->
-#### KAIST CCS Graduate School of Mobility
+#### Sejong University
 <!-- {: .welcomefont} -->
 </div>
 
