@@ -2,7 +2,8 @@ name: "Intelligent Media Laboratortyy (Imlab)"
 description: "This is the official web page for the Intelligent Media Laboratortyy (Imlab) at Sejong University."
 
 # url: "http://kaistmic.com"
-url: "https://kaist-mic-lab.github.io"
+# url: "https://kaist-mic-lab.github.io"
+url: "https://github.com/imlab3797/imlab3797.github.io"
 
 paginate: 10
 plugins: [jekyll-paginate, jekyll-sitemap]
