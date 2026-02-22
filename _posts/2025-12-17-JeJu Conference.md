@@ -1,90 +1,18 @@
-<!-- ---
-published: True
-title: International Conference on Robot Intelligence Technology and Applications (RiTA) 2025
-author: Myeongseok Ryu
-author_link: msRyu
-layout: post
-group: news
-tags: conference
-img: /static/posts/2025-12-17-RiTA0.jpg
 ---
-<div class="container-fluid">
-
-We participated in the **2025 International Conference on Robot Intelligence Technology and Applications (RiTA)** held at the *King's College* in **Lodon, United Kingdom**, from **December 17 to 19, 2025**.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA0.jpg" style="width: 60%; height: auto;">
-</div>
-
-Ph.D student **Hyochan Lee** presented a paper titled <a href="{{site.url}}/publications/2025-constrained-optimization//">**Constrained Optimization Formulation of Bellman Optimality Equation for Online Reinforcement Learning**</a> at the conference.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA2.jpg" style="width: 60%; height: auto;">
-</div>
-
-Master student **Jiyun Kim** presented a paper titled <a href="{{site.url}}/publications/2025-mitigating//">**Mitigating Attention Collapse via Mean-Deviation Constrained Optimization**</a> at the conference.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA1.jpg" style="width: 60%; height: auto;">
-</div>
-
-Alumnus **Minseok Seo** presented a paper titled <a href="{{site.url}}/publications/2025-state-dependent/">**State-Dependent Lagrange Multipliers for State-Wise Safety in Constrained Reinforcement Learning**</a> at the conference.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA3.jpg" style="width: 60%; height: auto;">
-</div>
-
-Additionally, we enjoyed the beautiful scenery of London.
-
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA4.jpg" style="width: 60%; height: auto;">
-</div>
-
-</div> -->
-
-
-<!-- published: True
-title: International Conference in JeJu 2025
-author: Muhammad Afaq
-author_link: --
+published: True
+title: JeJu Confgerence
+author: Adnan khan
+author_link: "link"
 layout: post
 group: news
-tags: conference
-img: static/posts/jeju.png
---- -->
+tags: award conference
+img: /static/posts/jeju.png
+---
 
 <div class="container-fluid">
-
 We participated in the **2025 International Conference in JeJu, Island**, from **October 29 to December 2, 2025**.
 
 <div style="text-align: center;">
 <img class="img-fluid" src="/static/posts/jeju.png" style="width: 60%; height: auto;">
 </div>
-
-<!-- Ph.D student **Hyochan Lee** presented a paper titled <a href="{{site.url}}/publications/2025-constrained-optimization//">**Constrained Optimization Formulation of Bellman Optimality Equation for Online Reinforcement Learning**</a> at the conference.
-
-<div style="text-align: center;">
-<!-- <img class="img-fluid" src="/static/posts/2025-12-17-RiTA2.jpg" style="width: 60%; height: auto;"> -->
-<!-- </div>
-
-Master student **Jiyun Kim** presented a paper titled <a href="{{site.url}}/publications/2025-mitigating//">**Mitigating Attention Collapse via Mean-Deviation Constrained Optimization**</a> at the conference.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA1.jpg" style="width: 60%; height: auto;">
-</div>
-
-Alumnus **Minseok Seo** presented a paper titled <a href="{{site.url}}/publications/2025-state-dependent/">**State-Dependent Lagrange Multipliers for State-Wise Safety in Constrained Reinforcement Learning**</a> at the conference.
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA3.jpg" style="width: 60%; height: auto;">
-</div>
-
-Additionally, we enjoyed the beautiful scenery of London.
-
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/posts/2025-12-17-RiTA4.jpg" style="width: 60%; height: auto;">
-</div> -->
-
 </div> -->
