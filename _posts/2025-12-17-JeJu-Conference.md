@@ -1,5 +1,5 @@
 ---
-published: True
+published: true 
 title: JeJu Confgerence
 author: Adnan khan
 author_link: "link"
