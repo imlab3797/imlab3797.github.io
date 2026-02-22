@@ -1,5 +1,5 @@
 ---
-title: MIC Lab
+title: Intelligent Meida Laboratory Lab
 layout: home
 group: home
 ---
@@ -15,12 +15,12 @@ group: home
 </div>
 
 <br>
-
-The Mobility Intelligence and Control Laboratory (MIC Lab) focuses on enabling mobility intelligence through optimal and learning-based control of Connected, Automated, and Electrified Vehicles (CAEVs) across multiple levels of control.
+The Intelligent Media Laboratory (Imlab) focuses on cutting-edge technologies that shape the future of digital media, artificial intelligence, and human–computer interaction.
 <!-- {: .welcomefont} -->
 
 <p align="center">
-  <img src="static/img/home.png" alt="MIC Lab Logo" style="max-width: 90%; height: auto;">
+  <!-- <img src="static/img/home.png" alt="MIC Lab Logo" style="max-width: 90%; height: auto;"> -->
+  <img src="static/img/imlab_home.png" alt="IM Lab Logo" style="max-width: 90%; height: auto;">
 </p>
 
 
