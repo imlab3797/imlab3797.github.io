@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: members
 group: members
 title: "Sung Wook Baik"
 name: "Sung Wook Baik"
