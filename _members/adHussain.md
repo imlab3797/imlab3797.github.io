@@ -15,7 +15,7 @@ image: /static/members/adHussain.jpg
 altimage: /static/members/adHussain.jpg
 subsequent:
 pronouns:
-email:
+email: 
 scholar: g1DEcpQAAAAJ
 github: Adnan3797
 orcid: 0009-0007-4209-1034
