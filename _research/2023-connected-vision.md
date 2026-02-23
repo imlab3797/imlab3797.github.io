@@ -1,5 +1,5 @@
 ---
-state: 'completed'
+state: 'ongoing'
 krtitle: "커넥티드 비전 환경에서 사고 예방을 위한 이상행동 인식"
 engtitle: "Anomaly Behavior Recognition for Accident Prevention in the Connected Vision Environment"
 participants:
