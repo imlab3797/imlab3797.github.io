@@ -1,8 +1,8 @@
-# KAIST MIC Lab
+# Sejong University IMLab
 
 > [!Note]
-> Maintained by Ph.D. student [**Myeongseok Ryu**](https://github.com/DDingR).  
-> Contact me at <a href="mailto:dding_98@kaist.ac.kr">dding_98@kaist.ac.kr</a> for any questions or suggestions. 
+> Maintained by Master's student [**Muhammad Afaq**]([https://github.com/afaqislamia191055]).  
+> Contact me at <a href="mailto:afaqk3797@gmail.com">afaqk3797@gmail.com</a> for any questions or suggestions. 
 
 Forked from [fraser-lab.github.io](https://fraserlab.com/2020/05/03/Clone-this-website/).
 
@@ -17,7 +17,7 @@ https://mic.gist.ac.kr/prog/lectureMaster/mic/ALL/65352/list.do
 
 > [!Note]
 > Go to `_templates/` to contribute to the website.  
-> Or just contact maintainer **Myeongseok Ryu**.
+> Or just contact maintainer **Muhammad Afaq**.
 
 - Philosophy page: `./_data/philosophy.yml`
 - Research page: `./research/`
