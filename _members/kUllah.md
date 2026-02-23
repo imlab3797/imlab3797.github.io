@@ -24,7 +24,7 @@ researchgate:
 website:
 iris:
 description: "
-**Kaleem Ullah** received a bachelor’s degree in Software Engineering from **Islamia College Peshawar**. He is currently pursuing the **M.S. degree** at **Sejong University**.
+**Kaleem Ullah** received a bachelor’s degree in Software Engineering from **Islamia College Peshawar**. He is currently pursuing the **M.S. leading to PhD degree** at **Sejong University**.
 
 His research interests include **Multimodal Understanding**, **Cross-Modal Alignment**, **Vision–Language Modeling**, **Deep Learning**, and **Computer Vision** for real-world applications.
 
