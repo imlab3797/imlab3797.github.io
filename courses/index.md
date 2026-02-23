@@ -6,8 +6,8 @@ group: courses
 
 ##### Computer Vision for Unmanned Aerial Systems
 
--
-  This course introduces the fundamentals of **computer vision** and the methodology of **pattern recognition**, with a strong focus on applying theory to real-world aerial and unmanned systems. Students will study core visual understanding techniques and learn how to combine multiple computer vision methods to build practical solutions. The course emphasizes hands-on implementation through an actual project.
+
+This course introduces the fundamentals of **computer vision** and the methodology of **pattern recognition**, with a strong focus on applying theory to real-world aerial and unmanned systems. Students will study core visual understanding techniques and learn how to combine multiple computer vision methods to build practical solutions. The course emphasizes hands-on implementation through an actual project.
 
 - Contents:
   - Image Representation and Classification
