@@ -1,4 +1,4 @@
-# KAIST MIC Lab
+# Sejong University IMLab
 
 > [!Note]
 > Maintained by Ph.D. student [**Myeongseok Ryu**](https://github.com/DDingR).  
