@@ -1,5 +1,5 @@
 ---
-title: Join the MIC Lab
+title: Join the IMlab
 layout: default
 group: join
 ---
@@ -17,17 +17,37 @@ We are always in the market for motivated and talented people, even if we do not
 
 ### Graduate Programs (M.S. / Ph.D.)
 
-We warmly welcome students with __a strong background in control systems and a keen interest—or prior experience—in applying control theory to mobility systems__. However, prior experience is not mandatory. Students with __strong mathematical thinking and problem-solving skills__ will be well-prepared to begin research in our group and grow as researchers.
+We warmly welcome students with a strong background in computer vision, machine learning, artificial intelligence, or related fields. Prior research experience in deep learning, image/video analysis, or data-centric AI is highly encouraged but not mandatory.
 
-If you are interested in joining us, please contact [Prof. Kyunghwan Choi]({{ site.url }}/members/khChoi/) via <a href="mailto:kh.choi@kaist.ac.kr">email</a> with your CV and academic transcript attached.
+Students with strong mathematical foundations, programming skills (Python/PyTorch/TensorFlow), and problem-solving abilities will be well-prepared to conduct impactful research in our group and grow as independent researchers.
+
+Our research focuses on:
+
+- Connect Vision (Vision-Language Models, Multimodal Learning, Large Vision Models)
+- Population Vision (Crowd Analysis, Large-Scale Visual Understanding, Data-Centric AI)
+
+If you are interested in joining us, please contact  
+<a href="https://sejong.elsevierpure.com/en/persons/sung-wook-baik/">Prof. Sung Wook Baik</a>  
+via <a href="mailto:sbaik3797p@gmail.com">email</a> with your CV, academic transcript, and a brief statement of research interest attached.
+
+
+---
 
 ### Undergraduate Research Internships
-We invite undergraduate students who wish to study or conduct exploratory research on the following topics:
-- Model Predictive Control (MPC)
-- Neural Network-Based Control
-- Control experiments using vehicle dynamics simulator (CarMaker)
 
-If you are interested, feel free to contact [Prof. Kyunghwan Choi]({{ site.url }}/members/khChoi/) via <a href="mailto:kh.choi@kaist.ac.kr">email</a>.
+We invite undergraduate students who are interested in studying or conducting exploratory research in the following areas:
+
+- Deep Learning for Computer Vision
+- Object Detection and Segmentation
+- Vision-Language Models
+- Data-Centric AI and Annotation Quality
+- Population and Crowd Analytics
+
+Students with strong programming skills and enthusiasm for research are encouraged to apply.
+
+If you are interested, please contact  
+<a href="https://sejong.elsevierpure.com/en/persons/sung-wook-baik/">Prof. Sung Wook Baik</a>  
+via <a href="mailto:sbaik3797p@gmail.com">email</a>.
 
 
 <!-- 
@@ -43,11 +63,11 @@ Once students are admitted to UCSF, during the first year of a Ph.D. program, st
 
 As the 3rd rotation period comes to a close, we will talk with the year's rotation students (at least those who remain interested!) about joining the lab.  During this period, we encourage students to keep talking to the PI and lab members about what kind of project they might want to shape. We consider project fit, scientific chemistry, and alignment with lab values. Because we are a member of multiple graduate programs with different policies and timings for final lab decision making, we cannot make any final commitments until the end of the Spring Quarter to ensure all rotations students are given consideration. -->
 
-### Postdoctoral Positions
+<!-- ### Postdoctoral Positions
 
 We welcome postdoctoral applications on a rolling basis. Please contact [Prof. Kyunghwan Choi]({{ site.url }}/members/khChoi/) directly via <a href="mailto:kh.choi@kaist.ac.kr">email</a>. While we are open to a wide range of topics related to mobility system control, we are particularly interested in candidates working on:
 -	Network-level control of Connected, Automated, and Electrified Vehicles (CAEVs)
--	Reinforcement learning-based control of mobility systems
+-	Reinforcement learning-based control of mobility systems -->
 
 
 <!-- Inquiries about Postdoctoral positions should be emailed directly to [Dr. James Fraser](/contact). We set our postdoctoral fellow compensation to the [Stanford rates](https://postdocs.stanford.edu/funding-levels-and-guidelines) **and** encourage candidates to explore applying for extramural fellowships to support their research. -->
