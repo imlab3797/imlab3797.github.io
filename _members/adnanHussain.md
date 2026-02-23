@@ -32,6 +32,6 @@ description: >
 
   His research interests include **video surveillance data analysis for anomaly detection**, 
   **multimedia analysis for image processing and classification**, 
-  **fire detection**, **object detection**, and various subdomains of **machine learning**, 
+  **fire detection**, **object detection**, and various subdomains of **machine learning** as well as 
   **deep learning**, and **computer vision** for real-world applications.
 ---
