@@ -4,15 +4,17 @@ layout: default
 group: courses
 ---
 
-##### MO89905: Special Topics on Unmanned Autonomous Systems &lt;Learning-Based Control for Mobility Systems&gt;
+##### Computer Vision for Unmanned Aerial Systems
 
-- 
-  This course introduces reinforcement learning (RL) from a control-theoretic and optimization perspective, with emphasis on online decision-making and theoretical guarantees. Core topics include approximate dynamic programming (ADP) for both finite and infinite-horizon settings, including value function approximation, rollout methods, value and policy iteration, and policy space approximation. The course covers both model-based and selected model-free approaches under a unifying approximation framework. Additional topics include state aggregation and model learning, with an emphasis on their roles in improving prediction, control, and decision-making. Applications focus on real-time decision-making and control in mobility systems. A final project requires students to design and implement learning-based controllers in online or sequential decision environments.
+-
+  This course introduces the fundamentals of **computer vision** and the methodology of **pattern recognition**, with a strong focus on applying theory to real-world aerial and unmanned systems. Students will study core visual understanding techniques and learn how to combine multiple computer vision methods to build practical solutions. The course emphasizes hands-on implementation through an actual project.
 
-- Objectives:
-  - To explore the state of the art of ADP/RL at a graduate level
-  - To explore the common boundary between AI and optimal control
-  - To provide a bridge that workers with background in either field find it accessible
+- Contents:
+  - Image Representation and Classification
+  - Object Detection Methods
+  - Multi-view Object Detection Methods
+  - Video Representation and Classification
+  - Anomaly Detection and Recognition
 <!-- 과목 GitHub Repo 추가 예정 -->
 
 <!--
