@@ -2,10 +2,10 @@
 
 
 <!-- Member linking for publication author names -->
-{% elsif memberName contains "Sung Wook Baik" %}
+{% if memberName contains "Sung Wook Baik" %}
     {% assign memberUrl = "swBaik" %}
 
-{% if memberName contains "Minji Kim" %}
+{% elif memberName contains "Minji Kim" %}
     {% assign memberUrl = "minjiKim" %}
 
 {% elsif memberName contains "Adnan Hussain" %}
