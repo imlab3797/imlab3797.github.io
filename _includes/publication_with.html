@@ -10,12 +10,11 @@
 
   {% assign isHas = false %}
 
-  {% for author in pub.authors %}
-    {% if author.name contains targetName %}
-      {% assign isHas = true %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
+{% for author in pub.authors %}
+  {% if author.name contains targetName and isHas == false %}
+    {% assign isHas = true %}
+  {% endif %}
+{% endfor %}
 
   {% if isHas %}
 
