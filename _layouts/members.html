@@ -4,7 +4,6 @@
         <img class="img-fluid" src="{{page.image}}" {% if page.altimage %} onmouseover="this.src='{{page.altimage}}';" onmouseout="this.src='{{page.image}}';" {% endif %} alt="{{page.name}}"; width="265"; height="365"><br>
 
         {% assign last_position = page.positions | last %}
-
         {% if last_position.name == "Principal Investigator" %}
           {{page.name}}, Ph.D. <br>
           {{ page.kr_name }} <br>

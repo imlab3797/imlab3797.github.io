@@ -1,6 +1,3 @@
-<!-- Only publications by Target name -->
-
-{% assign underReview = "" | split: "" %}
 {% assign intJour = "" | split: "" %}
 {% assign intConf = "" | split: "" %}
 {% assign domJour = "" | split: "" %}
@@ -8,22 +5,20 @@
 
 {% for pub in site.publications %}
 
-  {% assign isHas = false %}
+  {% assign isHas = "false" %}
 
-{% for author in pub.authors %}
-  {% if author.name contains targetName and isHas == false %}
-    {% assign isHas = true %}
-  {% endif %}
-{% endfor %}
+  {% for author in pub.authors %}
+    {% if author.name contains targetName and isHas == "false" %}
+      {% assign isHas = "true" %}
+    {% endif %}
+  {% endfor %}
 
-  {% if isHas %}
+  {% if isHas == "true" %}
 
     {% if pub.pub %}
       {% assign pub_info = pub.pub | last %}
 
-      {% if pub_info.state contains "submitted" %}
-        {% assign underReview = underReview | push: pub %}
-      {% elsif pub.domestic_or_international == "International" and pub.type contains "Journal Paper" %}
+      {% if pub.domestic_or_international == "International" and pub.type contains "Journal Paper" %}
         {% assign intJour = intJour | push: pub %}
       {% elsif pub.domestic_or_international == "International" and pub.type contains "Conference Paper" %}
         {% assign intConf = intConf | push: pub %}
@@ -40,7 +35,6 @@
 {% endfor %}
 
 <h4>Quick Links</h4>
-
 <ul>
   {% if intJour.size > 0 %}
     <li><a href="#International Journal Paper">International Journal Papers ({{ intJour.size }})</a></li>
@@ -61,27 +55,26 @@
 
 <hr>
 
-
 {% if intJour.size > 0 %}
-<h4 id="International Journal Paper">International Journal Papers</h4>
-{% assign data = intJour %}
-{% include publication_sort_year.html %}
+  <h4 id="International Journal Paper">International Journal Papers</h4>
+  {% assign data = intJour %}
+  {% include publication_sort_year.html %}
 {% endif %}
 
 {% if intConf.size > 0 %}
-<h4 id="International Conference Paper">International Conference Papers</h4>
-{% assign data = intConf %}
-{% include publication_sort_year.html %}
+  <h4 id="International Conference Paper">International Conference Papers</h4>
+  {% assign data = intConf %}
+  {% include publication_sort_year.html %}
 {% endif %}
 
 {% if domJour.size > 0 %}
-<h4 id="Domestic Journal Paper">Domestic Journal Papers</h4>
-{% assign data = domJour %}
-{% include publication_sort_year.html %}
+  <h4 id="Domestic Journal Paper">Domestic Journal Papers</h4>
+  {% assign data = domJour %}
+  {% include publication_sort_year.html %}
 {% endif %}
 
 {% if domConf.size > 0 %}
-<h4 id="Domestic Conference Paper">Domestic Conference Papers</h4>
-{% assign data = domConf %}
-{% include publication_sort_year.html %}
+  <h4 id="Domestic Conference Paper">Domestic Conference Papers</h4>
+  {% assign data = domConf %}
+  {% include publication_sort_year.html %}
 {% endif %}
