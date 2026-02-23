@@ -1,135 +1,51 @@
----
-title: Research in the MIC Lab
-layout: default
-group: research
----
+## Research Background
 
-<!-- ********************************** -->
-<div class="container-fluid">
-<div class="row">
+The Intelligent Media Laboratory (IMLab) focuses on building practical AI systems that can understand complex real-world environments and support decision-making in safety-critical and resource-constrained settings. Our research spans **anomaly understanding for smart surveillance**, **energy and smart-grid intelligence**, and **data-driven platforms for societal and industrial challenges**. We develop machine learning and deep learning methods that are robust, explainable, and deployable—bridging algorithm design with real-world applications.
 
-## Research Background 
+## Research Projects Overview
 
-In the future, vehicles will be seamlessly connected—not only to each other but also to infrastructure, pedestrians, and the cloud. This connectivity will allow vehicles to access vast amounts of real-time information, enabling them to make autonomous and cooperative decisions. At this level, vehicles are connected and automated, forming a complex network of mobility. Each vehicle will also be electrified, utilizing multiple power sources for improved energy efficiency. Examples include hybrid electric vehicles (HEVs), fuel cell electric vehicles (FCEVs), and battery electric vehicles (BEVs). Among these, electric motors will play a crucial role as the core component driving electrified vehicles. 
+Our current and recent projects can be broadly grouped into three directions:
 
-Control of these connected, automated, and electrified vehicles (CAEVs) involves managing multiple degrees of freedom (DOF) at various levels. At the network level, this includes controlling multiple vehicles and their interactions. At the vehicle level, it involves optimizing the use of multiple power sources. Finally, at the component level, it requires precise control of multiple voltages within electric motors. 
+### 1) Anomaly Understanding and Connected Vision for Safety
+We study video-based behavior understanding to detect abnormal events and prevent accidents in connected and intelligent environments. Our work targets reliable recognition under challenging conditions and aims to support real-time monitoring in smart cities, transportation systems, and public safety applications.
 
-To fully unlock the potential of CAEVs, such as maximizing energy efficiency, optimal control across multiple levels is essential for managing these complex and interconnected degrees of freedom effectively.
+**Anomaly Behavior Recognition for Accident Prevention in the Connected Vision Environment (03/2023 – 02/2026)**  
+This project develops AI techniques to recognize risky and anomalous behaviors in connected-vision environments for proactive accident prevention and safety management.
 
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Research overview_a.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
-<hr>
+<img class="img-fluid" src="/static/img/research/projects/2023-connected-vision.png" alt="Connected Vision Project" style="max-width: 900px; display: block; margin: 10px auto;" />
 
-<!-- ********************************** -->
-<div class="row">
+**Multi-view Video Data Analysis Technology for Smart City based Intelligent Surveillance System (06/2019 – 02/2022)**  
+We develop multi-view analysis methods for smart-city surveillance, enabling better scene understanding and consistent activity recognition across multiple cameras.
 
-## Research Program
+**Multi-Viewed Video Data Processing and Analysis Techniques for Intelligent Video Surveillance System (06/2016 – 05/2019)**  
+This project focuses on scalable video processing pipelines and learning-based analysis for intelligent surveillance applications.
 
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Research_Program.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
+### 2) Energy AI and Smart Network Optimization
+We develop data-driven methods for energy systems, focusing on interpretability, forecasting, optimization, and platform technologies for next-generation energy networks. Our research supports efficient energy usage analysis, network participation, and AI-enabled policy simulation.
 
-[1] __K. Choi__, J. Kim, and K.-B. Park\*, “Generalized Model Predictive Torque Control of Synchronous Machines,” __IEEE/ASME Transactions on Mechatronics__, Early Access.
-<br/>
-[2] __K. Choi__, J. Byun, S. Lee, and I. G. Jang*, “Adaptive Equivalent Consumption Minimization Strategy (A-ECMS) for the HEVs with a Near-optimal Equivalent Factor Considering Driving Conditions”, __IEEE Transactions on Vehicular Technology__, vol. 71, no. 3, pp. 2538-2549, 2022.
-<br/>
-[3] __K. Choi__\*, S. Shin, and M. Seo, “Cooperative Merging in Mixed Traffic Based on Strategic Influence of Connected Automated Vehicles on Human-Driven Vehicle Behavior,” Under review for __Advanced Intelligent Systems__.
-<br/>
-[4] __K. Choi__, G. Park, and D. Kum\*, “An Analytical Approach to the Predictive Energy Management of Connected HEVs: What Information Do We Need to Guarantee Global Optimality?,” __IEEE Transactions on Intelligent Transportation Systems__, vol. 25, no. 9, pp. 12749-12761, 2024.
-<br/>
+**Open Platform Technology for Autonomous Participation of Energy Network Components (06/2019 – 12/2023)**  
+We study open platform technologies that enable energy network components to participate autonomously, supporting flexible and scalable energy ecosystem operation.
 
-<hr>
+**Development of Ensemble Methods-Based XAI Energy Platform for Effective Energy Consumption Pattern and Factor Analysis (06/2019 – 12/2023)**  
+This project develops explainable AI (XAI) approaches for analyzing energy consumption patterns and identifying influential factors for improved energy management.
 
-<!-- ********************************** -->
-<div class="row">
+### 3) Data Platforms for Societal and Industrial Impact
+We build AI and data platforms that connect learning, simulation, and data-cloud infrastructure to address large-scale societal and industrial problems, including depopulated regions and materials informatics.
 
-## Component-level Research: Optimal Torque Control of Electric Motors
+**Development and Demonstration of AI Policy Simulation Platform Technology to Solve Social Problems in Depopulated Areas Based on XOps (04/2024 – 12/2027)**  
+This project aims to build an AI policy simulation platform that supports decision-making for depopulated regions by integrating scalable operational workflows and data-driven policy evaluation.
 
-#### Problem Statement
+**Data HUB for Solid Electrolyte Materials Based on SyncroLab Data Cloud (07/2024 – 12/2025)**  
+We develop a data-hub platform for solid electrolyte materials, enabling structured data collection, retrieval, and analysis through a cloud-based pipeline to accelerate materials research and discovery.
 
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Problem_statement_EM.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
+**Development of AI-Convergence Technologies for Smart City Industry Productivity Innovation (04/2019 – 12/2021)**  
+This project develops AI convergence technologies to improve smart-city industry productivity through practical AI solutions and data-driven services.
 
-#### Relevant work
+**Development of Integrated Cross-Model Data Processing Platform Supporting a Unified Analysis of Various Big Data Models (04/2019 – 12/2021)**  
+We build an integrated platform to support unified analysis across heterogeneous big data models, enabling scalable processing and cross-model insights.
 
-[1] __K. Choi__, J. Kim, and K.-B. Park\*, “Generalized Model Predictive Torque Control of Synchronous Machines,” __IEEE/ASME Transactions on Mechatronics__, Early Access.
-<br/>
-[2] __K. Choi__, Y. Kim, S.-K. Kim\*, and K.-S. Kim\*, “Computationally Efficient Model Predictive Torque Control of Permanent Magnet Synchronous Machines Using Numerical Techniques,” __IEEE Transactions on Control Systems Technology__, vol. 30, no. 4, pp. 1774-1781, 2022.
-<br/>
-[3] __K. Choi__, Y. Kim, K.-S. Kim\*, and S.-K. Kim\*, “Real-time Optimal Torque Control of Interior Permanent Magnet Synchronous Motors Based on a Numerical Optimization Technique,” __IEEE Transactions on Control Systems Technology__, vol 29, no. 4, pp. 1815-1822, 2021.
-<br/>
-[4] __K. Choi__, Y. Kim, S.-K. Kim\*, and K.-S. Kim\*, “Current and Position Sensor Fault Diagnosis Algorithm for PMSM Drives Based on Robust State Observer,” __IEEE Transactions on Industrial Electronics__, vol. 68. no. 6, pp. 5227-5236, 2021.
-<br/>
-[5] __K. Choi__, Y. Kim, S.-K. Kim\*, and K.-S. Kim, “Auto-calibration of Position Offset for PMSM Drives with Uncertain Parameters,” __Electronics Letters__, vol 56, no. 20, pp. 1048-1051, 2020.
-<br/>
-[6] __K. Choi__, D. S. Kim, and S.-K. Kim\*, “Disturbance Observer-based Offset-free Global Tracking Control for Input-constrained LTI Systems with DC/DC Buck Converter Applications,” __Energies__, vol. 13, no. 16, p. 4079, 2020.
-<br/>
-[7] __K. Choi__, Y. Kim, K.-S. Kim, and S.-K. Kim\*, “Output Voltage Tracking Controller Embedding Auto-tuning Algorithm for DC/DC Boost Converters,” __IET Power Electronics__, vol. 12, no. 14, pp. 3767-3773, 2019.
-<br/>
-[8] __K. Choi__, K.-S. Kim\*, and S.-K. Kim\*, “Proportional-type Sensor Fault Diagnosis Algorithm for DC/DC Boost Converters Based on Disturbance Observer,” __Energies__, vol. 12, no. 8, p. 1412, 2019.
-<br/>
-[9] __K. Choi__, Y. Kim, K.-S. Kim\*, and S.-K. Kim\*, “Using the Stator Current Ripple Model for Real-time Estimation of Full Parameters of a Permanent Magnet Synchronous Motor,” __IEEE Access__, vol. 7, pp. 33369-33379, 2019.
+**National Program of Excellence in Software (10/2015 – 12/2021)**  
+This program supports advanced software education and research, strengthening capabilities in AI-driven software systems and applied R&D.
 
-<!-- ********************************** -->
-<div class="row">
-
-## Vehicle-level Research: Energy Management of Hybrid Powertrain
-
-#### Problem Statement
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Problem_statement_HP.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
-
-#### Relevant work
-
-[1] __K. Choi__, J. Byun, S. Lee, and I. G. Jang\*, “Adaptive Equivalent Consumption Minimization Strategy (A-ECMS) for the HEVs with a Near-optimal Equivalent Factor Considering Driving Conditions”, __IEEE Transactions on Vehicular Technology__, vol. 71, no. 3, pp. 2538-2549, 2022.
-<br/>
-[2] J. Byun and __K. Choi__\*, “Effects Analysis of Light-duty Diesel Truck Hybrid Conversion Depending on Driving Style,” __Transportation Research Part D: Transport and Environment__, vol. 97, pp. 102958, 2021.
-
-<!-- ********************************** -->
-<div class="row">
-
-## Network-level Research: Predictive Energy Management of CAEVs
-
-#### Problem Statement
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Problem_statement_CAEV1.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
-
-#### Relevant work
-
-[1] G. Park, __K. Choi__, and D. Kum\*, “Predictive Control of a Dog-clutch Transmission via a Transformer-based Velocity Prediction,” __IEEE Transactions on Vehicular Technology__, Early Access.
-<br/>
-[2] __K. Choi__, G. Park, and D. Kum\*, “An Analytical Approach to the Predictive Energy Management of Connected HEVs: What Information Do We Need to Guarantee Global Optimality?,” __IEEE Transactions on Intelligent Transportation Systems__, vol. 25, no. 9, pp. 12749-12761, 2024.
-<br/>
-[3] G. Park, __K. Choi__, and D. Kum\*, “Stack Degradation Protection of FCEVs via Predictive Energy Management Strategy with Segmented Roads,” in __2024 American Control Conference (ACC)__, 2024: IEEE, pp. 3643-3649.
-<br/>
-[4] __K. Choi__ and W. Kim\*, “Real-time Predictive Energy Management Strategy for Fuel Cell-powered Unmanned Aerial Vehicles Based on the Control-oriented Battery Model,” __IEEE Control Systems Letters__, vol. 7, pp. 943-948, 2023 (The contents of this paper were also selected by ACC 2023 Program Committee for presentation at the Conference).
-
-<!-- ********************************** -->
-<div class="row">
-
-## Network-level Research: Cooperative Driving Control of CAEVs
-
-#### Problem Statement
-
-<div style="text-align: center;">
-<img class="img-fluid" src="/static/img/research/Problem_statement_CAEV2.jpg" alt="qFit" style="width: 80%; height: auto;">
-</div>
-</div>
-
-#### Relevant work
-
-[1] __K. Choi__\*, S. Shin, and M. Seo, “Cooperative Merging in Mixed Traffic Based on Strategic Influence of Connected Automated Vehicles on Human-Driven Vehicle Behavior,” Under review for __Advanced Intelligent Systems__.
-<br/>
-[2] M. Seo, S. Shin, K. Kim, and __K. Choi__\*, “Reinforcement Learning-based Collision Avoidance of a Connected and Automated Vehicle at Merging Roads,” in __2023 International Workshop on Intelligent Systems (IWIS)__, 2023: IEEE.
-</div>
+## Keywords
+**Anomaly Recognition · Video Understanding · Smart Surveillance · Energy AI · Explainable AI · Optimization · Data Platforms · Policy Simulation · Materials Data Cloud · Smart Cities**
