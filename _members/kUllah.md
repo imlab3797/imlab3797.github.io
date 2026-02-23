@@ -28,6 +28,5 @@ description: "
 
 His research interests include **Multimodal Understanding**, **Cross-Modal Alignment**, **Vision–Language Modeling**, **Deep Learning**, and **Computer Vision** for real-world applications.
 
-Further details are available here.
 "
 ---
