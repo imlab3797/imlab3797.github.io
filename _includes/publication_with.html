@@ -78,7 +78,7 @@
 		{% if domConf.size > 0 %}
 			<li><a href="#Domestic Conference Paper">Domestic Conference Papers ({{ domConf.size }})</a></li>
 		{% endif %}
-		{% if diss.size > 0 %}
+		<!-- {% if diss.size > 0 %}
 			<li><a href="#Ph.D. Dissertation">Ph.D. Dissertations ({{ diss.size }})</a></li>
 		{% endif %}
 		{% if thes.size > 0 %}
@@ -86,11 +86,11 @@
 		{% endif %}
 		{% if preprint.size > 0 %}
 			<li><a href="#Preprint">Preprints ({{ preprint.size }})</a></li>
-		{% endif %}
+		{% endif %} -->
 		<!-- Only appears in Publication Tap -->
 		{% if page.name contains "index" %}
-			<li><a href="#International Patents">International Patents</a></li>
-			<li><a href="#Domestic Patents">Domestic Patents</a></li>
+			<li><a href="#Patents Registration">International Patents</a></li>
+			<!-- <li><a href="#Domestic Patents">Domestic Patents</a></li> -->
 		{% endif %}
 	</ul>
 <hr>
@@ -128,7 +128,7 @@
 	{% include publication_sort_year.html %}
 {% endif %}
 
-{% if diss.size > 0 %}
+<!-- {% if diss.size > 0 %}
 	<h4 id="Ph.D. Dissertation">Ph.D. Dissertations</h4>
 	{% assign data = diss %}
 	{% include publication_sort_year.html %}
@@ -144,4 +144,4 @@
 	<h4 id="Preprint">Preprints</h4>
 	{% assign data = preprint %}
 	{% include publication_sort_year.html %}
-{% endif %}
+{% endif %} -->
