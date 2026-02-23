@@ -1,8 +1,6 @@
 <!-- Only publications by of Target name -->
 <!-- assign author name in targetName -->
 
-<!-- TODO: Add patent information -->
-
 <!-- Filtering -->
 {% assign preprint = "" | split: "" %}
 {% assign underReview = "" | split: "" %}
@@ -127,21 +125,3 @@
 	{% assign data = domConf %}
 	{% include publication_sort_year.html %}
 {% endif %}
-
-<!-- {% if diss.size > 0 %}
-	<h4 id="Ph.D. Dissertation">Ph.D. Dissertations</h4>
-	{% assign data = diss %}
-	{% include publication_sort_year.html %}
-{% endif %}
-
-{% if thes.size > 0 %}
-	<h4 id="Master's Thesis">Master's Theses</h4>
-	{% assign data = thes %}
-	{% include publication_sort_year.html %}
-{% endif %}
-
-{% if preprint.size > 0 %}
-	<h4 id="Preprint">Preprints</h4>
-	{% assign data = preprint %}
-	{% include publication_sort_year.html %}
-{% endif %} -->
