@@ -1,4 +1,4 @@
-# KAIST MIC Lab
+<!-- # KAIST MIC Lab
 
 > [!Note]
 > Maintained by Ph.D. student [**Myeongseok Ryu**](https://github.com/DDingR).  
@@ -14,7 +14,7 @@ webpage (GIST)
 https://mic.gist.ac.kr/prog/lectureMaster/mic/ALL/65352/list.do
 -->
 
-# How to adjust the website
+<!-- # How to adjust the website
 
 > [!Note]
 > Go to `_templates/` to contribute to the website.  
@@ -60,4 +60,4 @@ To create a conda environment to locally test and host, the following should suf
     conda create -n jekyll -c conda-forge rb-jekyll
     conda activate jekyll
     bundle install
-    bundle exec jekyll serve
+    bundle exec jekyll serve --> -->

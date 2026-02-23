@@ -15,7 +15,7 @@ group: home
 </div>
 
 <br>
-The Intelligent Media Laboratory (Imlab) focuses on cutting-edge technologies that shape the future of digital media, artificial intelligence, and human–computer interaction.
+The Intelligent Media Laboratory (IMLab) focuses on cutting-edge technologies that shape the future of digital media, artificial intelligence, and human–computer interaction.
 <!-- {: .welcomefont} -->
 
 <p align="center">
