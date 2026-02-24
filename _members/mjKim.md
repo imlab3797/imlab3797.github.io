@@ -4,7 +4,7 @@ layout: members
 group: members
 title: Min Je Kim
 name: Min Je Kim
-kr_name:
+kr_name: 김민제
 timeline_name: Min Je
 sortdate: [2021-03-01]
 positions:

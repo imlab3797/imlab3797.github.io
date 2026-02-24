@@ -3,7 +3,7 @@ layout: members
 group: members
 title: Sung Wook Baik
 name: Sung Wook Baik
-kr_name:
+kr_name: 백성욱
 timeline_name: Sung Wook
 sortdate: [2002-01-01]
 positions:
