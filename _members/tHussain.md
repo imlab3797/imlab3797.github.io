@@ -11,8 +11,8 @@ positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]
     enddate: []
-image:
-altimage:
+image: /static/members/tHussain.jpg
+altimage: /static/members/tHussain.jpg
 subsequent: Lecturer, Edge Hill University, United Kingdom
 pronouns:
 email:
