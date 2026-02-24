@@ -15,9 +15,9 @@ altimage: /static/members/swBaik.jpg
 email: sbaik@sejong.ac.kr
 scholar: 9tXoIf0AAAAJ
 github:
-orcid: https://orcid.org/0000-0002-6678-7788
+# orcid: https://orcid.org/0000-0002-6678-7788
 linkedin: 
-researchgate: https://www.researchgate.net/profile/Sung-Baik
+# researchgate: https://www.researchgate.net/profile/Sung-Baik
 website:
 iris:
 
