@@ -1,49 +1,50 @@
 ---
-title: IMLab Members
+title: Current Members
 layout: default
 group: members
 ---
 
 <div class="container-fluid" style="max-width: 700px; margin: auto;"> 
-<h1>IMLab Alumni</h1>
+  
+  <h1>Current Members</h1>
 
-{% assign Positions = "Postdoctoral Researcher|Ph.D. Student|Master Student|Intern" | split: "|" %}
-<hr>
+  {% assign Positions = "Professor|Ph.D. Student|Master Student|Intern" | split: "|" %}
 
-<br>
-<h4>Quick Links</h4>
+  <hr>
 
-<ul>
-{% for position in Positions %}
-{% assign filtered = "" | split: "" %}
-  {% for member in site.members %}
-    {% if member.subsequent %}
+  <br>
+  <h4>Quick Links</h4>
 
-      {% assign last_position = member.positions | last %}
-      {% if last_position.name == position %}
-        {% assign filtered = filtered | push: member %}
-      {% endif %}    
-
-    {% endif %}
-  {% endfor %}
-
-  {% if position == "Postdoctoral Researcher" %}
-    <li><a href="#{{ position }}">Postdocs ({{ filtered.size }})</a></li>
-  {% else %}
+  <ul>
+  {% for position in Positions %}
+  {% assign filtered = "" | split: "" %}
+    {% for member in site.members %}
+      {% if member.subsequent %}
+        {% continue %}
+      {% elsif member.positions %}
+        {% assign last_position = member.positions | last %}
+        {% if last_position.name == position %}
+          {% assign filtered = filtered | push: member %}
+        {% endif %}    
+      {% else %}
+        Warning: {{ member.name }} does not have a position defined. Please check the member's file.
+      {% endif %}
+    {% endfor %}
     <li><a href="#{{ position }}">{{ position }}s ({{ filtered.size }})</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-<hr>
+  {% endfor %}
+  </ul>
+  <hr>
 
-<br>
+  <br>
 
-{% for position in Positions %}
+  {% for position in Positions %}
 
   {% assign sorted = "" | split: "" %}
-  {% assign members = site.members | sort: "sortdate" | reverse %}
+  {% assign members = site.members | sort: "sortdate" %}
   {% for member in members %}
     {% if member.subsequent %}
+      {% continue %}
+    {% elsif member.positions %}
       {% assign last_position = member.positions | last %}
       {% if last_position.name == position %}
         {% assign sorted = sorted | push: member %}
@@ -51,104 +52,102 @@ group: members
     {% endif %}
   {% endfor %}
 
-  <div id="{{ position }}">
-    {% if position == "Postdoctoral Researcher" %}
-      <h2>Postdocs</h2>
-    {% else %}
-      <h2>{{ position }}s</h2>
-    {% endif %}
+    <div id = "{{ position }}">
+    <h2>{{ position }}s</h2>
     <hr>
 
     {% assign filtered = "" | split: "" %}
     {% for member in sorted %}
       {% if member.subsequent %}
+        {% continue %}
+      {% else %}
         {% assign filtered = filtered | push: member %}
       {% endif %}
     {% endfor %}
+
 
     {% if filtered.size > 0 %}
       <ul>
         {% for member in filtered %}
 
           <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-          <div id="{{ member.name }}" class="row" style="padding-top: 60px; margin-top: -60px;">
+          <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
             <div class="col-sm-4">
-              <img class="img-fluid" src="{{ member.image }}"
-                   {% if member.altimage %}
-                   onmouseover="this.src='{{ member.altimage }}';"
-                   onmouseout="this.src='{{ member.image }}';"
-                   {% endif %}
-                   alt="{{ member.name }}"; width="365"; height="365"><br>
+                  <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
 
-              {% assign last_position = member.positions | last %}
+                  {% assign last_position = member.positions | last %}
 
-              {% if last_position.name == "Principal Investigator" %}
-                <a href="{{ member.url }}" title="More about {{ member.name }}">{{ member.name }}, Ph.D.</a> <br>
-                {{ member.kr_name }} <br>
-              {% else %}
-                <a href="{{ member.url }}" title="More about {{ member.name }}">{{ member.name }}</a>
-                {% if member.kr_name %} / {{ member.kr_name }}{% endif %} <br>
-              {% endif %}
+                  {% if last_position.name == "Principal Investigator" %}
+                    <a href="{{ member.url }}" title = "More about {{member.name}} " >{{member.name}}, Ph.D.</a> <br>
+                    {{ member.kr_name }} <br>
+                  {% else %}
+                    <a href="{{ member.url }}" title = "More about {{member.name}} " >{{member.name}}</a>
+                    / {{ member.kr_name }} <br>
+                  {% endif %}
+                  
+                  <!-- {% if member.pronouns %} -->
+                    <!-- <em>{{member.pronouns}}</em> <br> -->
+                  <!-- {% endif %} -->
 
-              {{ member.subsequent | markdownify | remove: '<p>' | remove: '</p>' }} <br>
-              <em><a href="mailto:{{ member.email }}">{{ member.email }}</a></em> <br>
+                  {{last_position.name | markdownify | remove: '<p>' | remove: '</p>' }} <br>
+                  <em><a href="mailto:{{member.email}}">{{member.email}}</a></em> <br>
 
-              {% if member.website %}
-                <a style="overflow-wrap: break-word;" href="{{ member.website }}">{{ member.website }}</a> <br>
-              {% endif %}
+                  {% if member.website %}
+                    <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
+                  {% endif %}
 
-              {% if member.cv %}
-                <a href="{{ member.cv }}" title="{{ member.name }}'s CV" target="_blank">📄 Curriculum Vitae (CV)</a> <br>
-              {% endif %}
+                  {% if member.cv %}
+                    <a href="{{ member.cv }}" title = "{{member.name}}'s CV" target="_blank">📄 Curriculum Vitae (CV)</a> <br>
+                  {% endif %}
 
-              {% if member.orcid %}
-                <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg"></a>
-                <a href="http://orcid.org/{{ member.orcid }}"> {{ member.orcid }}</a> <br>
-              {% endif %}
+                  {% if member.orcid %}
+                    <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg"></a>
+                    <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
+                  {% endif %}
 
-              {% if member.scholar %}
-                <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
-                <a href="http://scholar.google.com/citations?user={{ member.scholar }}">Google Scholar</a> <br>
-              {% endif %}
+                  {% if member.scholar %}
+                    <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
+                    <a href= "http://scholar.google.com/citations?user={{member.scholar}}">Google Scholar</a> <br>
+                  {% endif %}
 
-              {% if member.linkedin %}
-                <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
-                <a href="http://www.linkedin.com/in/{{ member.linkedin }}"> Linkedin </a> <br>
-              {% endif %}
+                  {% if member.linkedin %}
+                    <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
+                    <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> Linkedin </a> <br>
+                  {% endif %}
 
-              {% if member.researchgate %}
-                <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/researchGate_logo.svg"></a>
-                <a href="https://www.researchgate.net/profile/{{ member.researchgate }}">{{ member.researchgate }}</a> <br>
-              {% endif %}
+                  {% if member.researchgate %}
+                    <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/researchGate_logo.svg"></a>
+                    <a href="https://www.researchgate.net/profile/{{member.researchgate}}">{{member.researchgate}}</a> <br>
+                  {% endif %}
 
-              {% if member.github %}
-                <a href="http://github.com"><img class="inline-block mem-icon" src="/static/img/logo/github_logo.svg"></a>
-                <a href="http://github.com/{{ member.github }}">{{ member.github }}</a> <br>
-              {% endif %}
-            </div>
+                  {% if member.github %}
+                    <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/logo/github_logo.svg"></a>
+                    <a href= "http://github.com/{{member.github}}">{{member.github}}</a> <br>
+                  {% endif %}
 
-            <div class="col-sm-8">
-              {{ member.description | markdownify }}
+                  {% if member.iris %}
+                    <a href="https://www.iris.go.kr/enMain.do"><img class="inline-block mem-icon" src="/static/img/logo/iris_logo.png"></a>
+                    {{member.iris}} <br>
+                  {% endif %}
 
-              {% if member.cv %}
-                Curriculum Vitae (CV) can be found <a href="{{ member.cv }}" title="{{ member.name }}'s CV" target="_blank">here</a>. <br>
-              {% endif %}
-              Further details are available <a href="{{ member.url }}" title="More about {{ member.name }} (opens in new tab)" target="_blank">here</a>.
+              </div>
+              <div class="col-sm-8">
+                  {{member.description | markdownify}}
+                
+                  Further details are available <a href="{{ member.url }}" title = "More about {{member.name}} (opens in new tab)" target="_blank">here</a>.
             </div>
           </div>
-
+          
           <hr>
         {% endfor %}
       </ul>
     {% else %}
-      {% if position == "Postdoctoral Researcher" %}
-        <p>We currently have no Postdocs alumni in the lab.</p>
-      {% else %}
-        <p>We currently have no {{ position }}s alumni in the lab.</p>
-      {% endif %}
+      <p>
+        We currently have no {{ position }}s in the lab.
+      </p>
     {% endif %}
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
 <div class="container-fluid" style="text-align: center;">
