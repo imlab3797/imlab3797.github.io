@@ -6,11 +6,11 @@ title: Dong Keon Yon
 name: Dong Keon Yon
 kr_name: 연동건
 timeline_name: Dong Keon
-sortdate: [2020-01-01]
+sortdate: [2019-09-01]
 positions:
   - name: "Ph.D. Student"
     startdate: []
-    enddate: []
+    enddate: [2024-09-31]
 image: /static/members/dKeon.jpg
 altimage: /static/members/dKeon.jpg
 subsequent: Assistant Professor, Kyung Hee University College of Medicine (Department of Pediatrics and Digital Health), Korea
