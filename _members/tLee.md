@@ -24,7 +24,7 @@ researchgate:
 website: https://sites.google.com/view/tuonglecung/
 iris:
 description: "
-**Tuong Le** received his **Ph.D. in Computer Science** from **Sejong University**, South Korea (2017–2020). He is currently a **Lecturer** in the **Faculty of Information Technology** at **HUTECH University**, Ho Chi Minh City, Vietnam.
+**Tuong Le** received his **Ph.D. in Computer Science** from **Sejong University**, South Korea (2017–2020). He is currently a full time **Lecturer** in the **Faculty of Information Technology** at **HUTECH University**, Ho Chi Minh City, Vietnam.
 
 His research interests include **machine learning**, **imbalanced learning**, **deep learning**, **time series analysis**, **natural language processing (NLP)**, and **data mining/pattern mining**.
 "

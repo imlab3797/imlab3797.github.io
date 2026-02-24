@@ -14,13 +14,19 @@ image: /static/members/swBaik.jpg
 altimage: /static/members/swBaik.jpg
 email: sbaik@sejong.ac.kr
 scholar: 9tXoIf0AAAAJ
-website: https://sejong.elsevierpure.com/en/persons/sung-wook-baik/
+github:
+orcid: https://orcid.org/0000-0002-6678-7788
+linkedin: 
+researchgate: https://www.researchgate.net/profile/Sung-Baik
+website:
+iris:
+
+# website: https://sejong.elsevierpure.com/en/persons/sung-wook-baik/
 description: "
 **Sung Wook Baik** is a Full Professor at the Department of Software and Director of the **Intelligent Media Laboratory (IM Lab)** at **Sejong University**, Seoul, Korea.
 
 His research interests include **image processing**, **pattern recognition**, **video analytics**, **big data analysis**, **multimedia data processing**, **energy load forecasting**, **IoT/IIoT**, and **smart cities**.
 
-For more details, please visit his **Research Profile** or **Google Scholar**.
 "
 ---
 <div class="row">
