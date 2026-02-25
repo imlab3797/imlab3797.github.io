@@ -13,7 +13,7 @@ positions:
     enddate: [2026-02-28]
 image: /static/members/wAhmad.jpg
 altimage: /static/members/wAhmad.jpg
-subsequent:
+subsequent: Graduated in 2026
 pronouns:
 email:
 scholar: https://scholar.google.com/citations?user=mTwcsIoAAAAJ&hl=nl
