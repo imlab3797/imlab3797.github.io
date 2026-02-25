@@ -11,8 +11,8 @@ positions:
   - name: "Ph.D. Student"
     startdate: [2004-03-01]
     enddate: [2008-02-28]
-image: /static/members/jyJang.jpg
-altimage: /static/members/jyJang.jpg
+image: /static/members/default.jpg
+altimage: /static/members/default.jpg
 subsequent: No info
 pronouns:
 email:
