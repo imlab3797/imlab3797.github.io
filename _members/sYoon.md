@@ -6,7 +6,7 @@ title: Sang II Yoon
 name: Sang II Yoon
 kr_name: 윤상일
 timeline_name: Sang II
-sortdate: [2024-08-31]
+sortdate: [2022-03-01]
 positions:
   - name: "Master Student"
     startdate: [2022-03-01]
