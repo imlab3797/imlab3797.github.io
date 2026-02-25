@@ -11,8 +11,8 @@ positions:
   - name: "Master Student"
     startdate: [2004-03-01]
     enddate: [2006-02-28]
-image: /static/members/ssKim.jpg
-altimage: /static/members/ssKim.jpg
+image: /static/members/default.jpg
+altimage: /static/members/default.jpg
 subsequent: Researcher at Woori FIS, South Korea
 pronouns:
 email:
