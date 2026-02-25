@@ -6,11 +6,11 @@ title: Jamil Ahmad
 name: Jamil Ahmad
 kr_name:
 timeline_name: Jamil
-sortdate: [2019-03-01]
+sortdate: [2014-03-01]
 positions:
   - name: "Ph.D. Student"
-    startdate: [2019-03-01]
-    enddate: [2023-07-31]
+    startdate: [2014-03-01]
+    enddate: [2018-07-31]
 image: /static/members/jAhmad.jpg
 altimage: /static/members/jAhmad.jpg
 subsequent: Postdoctoral Researcher, Department of Computer Vision, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE
