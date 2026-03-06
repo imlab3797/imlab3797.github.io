@@ -4,7 +4,7 @@ layout: home
 group: home
 ---
 
-<div class="container-fluid">
+<div class="container">
 
 <div style="text-align: center; margin-bottom: 5px;">
   
