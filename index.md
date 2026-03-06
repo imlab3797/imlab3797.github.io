@@ -23,7 +23,7 @@ Over the past 24 years, the lab has also played a significant role in cultivatin
 Through continued research, innovation, and education, the Intelligent Media Lab remains committed to advancing the frontier of Media AI, shaping a future where artificial intelligence serves as the fundamental medium through which humans experience, understand, and transform the world.
 <!-- {: .welcomefont} -->
 
-<p>
+<p align="center">
   <!-- <img src="static/img/home.png" alt="MIC Lab Logo" style="max-width: 90%; height: auto;"> -->
   <!-- <img src="static/img/imlab_home.png" alt="IMLab Logo" style="max-width: 82%; height: auto;"> -->
   <img src="static/img/imlab_home.png" alt="IMLab Logo"
