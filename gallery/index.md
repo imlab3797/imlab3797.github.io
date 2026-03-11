@@ -8,8 +8,17 @@ group: gallery
 
 <div class="row">
 
-<div class="col-md-4">
+<div class="col-md-4 text-center">
+
+<figure>
 <img src="/static/img/gallery/JejuConfrence.jpg" class="img-fluid">
+
+<figcaption>
+Jeju Conference – Our lab members attending the conference at Jeju Island.
+</figcaption>
+
+</figure>
+
 </div>
 
 </div>
