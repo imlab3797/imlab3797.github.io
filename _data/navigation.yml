@@ -44,6 +44,10 @@
   link: "/courses"
   group: courses
 
+- name: Gallery
+  link: "/gallery"
+  group: gallery
+
 - name: News & Events
   link: "/news"
   group: news
@@ -55,7 +59,5 @@
 - name: Contact
   link: "/contact"
   group: contact
-  
-- name: Gallery
-  link: "/gallery"
-  group: gallery
+
+
