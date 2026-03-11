@@ -55,4 +55,7 @@
 - name: Contact
   link: "/contact"
   group: contact
-
+  
+- name: Gallery
+  link: "/gallery"
+  group: gallery
