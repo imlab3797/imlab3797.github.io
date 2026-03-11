@@ -6,11 +6,11 @@ title: Amin Ullah
 name: Amin Ullah
 kr_name:
 timeline_name: Amin
-sortdate: [2021-02-01]
+sortdate: [2017-02-01]
 positions:
   - name: "Ph.D. Student"
-    startdate: [2021-02-01]
-    enddate: [2023-09-01]
+    startdate: [20217-02-01]
+    enddate: [2021-09-01]
 image: /static/members/amUllah.jpg
 altimage: /static/members/amUllah.jpg
 subsequent: Senior Machine Learning Engineer at Boeing Research & Technology Software, Seattle, WA, USA

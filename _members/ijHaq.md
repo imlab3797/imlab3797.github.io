@@ -6,11 +6,11 @@ title: Ijaz Ul Haq
 name: Ijaz Ul Haq
 kr_name:
 timeline_name: Ijaz
-sortdate: [2022-03-01]
+sortdate: [2018-03-01]
 positions:
   - name: "Ph.D. Student"
-    startdate: [2022-03-01]
-    enddate: []
+    startdate: [2018-03-01]
+    enddate: [2022-03-01]
 image: /static/members/iHaq.jpg
 altimage: /static/members/iHaq.jpg
 subsequent: Research Fellow and Lab Coordinator at SMILES Lab, University of Michigan
