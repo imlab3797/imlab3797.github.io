@@ -27,7 +27,7 @@ Jeju Conference – Our lab members attending the conference at Jeju Island.
 <img src="/static/img/gallery/team_dinner.jpg" class="img-fluid">
 
 <figcaption>
-Team Dinner – Our lab members enjoying dinner together after the conference.
+Team Dinner – Our lab members enjoying dinner together.
 </figcaption>
 
 </figure>
@@ -40,7 +40,7 @@ Team Dinner – Our lab members enjoying dinner together after the conference.
 <img src="/static/img/gallery/dinner_kirawan.jpg" class="img-fluid">
 
 <figcaption>
-Team Dinner – Our lab members enjoying dinner together after the conference.
+Team Dinner – Our lab members enjoying dinner.
 </figcaption>
 
 </figure>
