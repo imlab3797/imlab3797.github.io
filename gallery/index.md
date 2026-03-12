@@ -11,7 +11,7 @@ group: gallery
 <div class="col-md-4 text-center">
 
 <figure>
-<img src="/static/img/gallery/JejuConfrence.jpg" class="img-fluid">
+<img src="/static/img/gallery/JejuConfrence.jpg" class="gallery-img">
 
 <figcaption>
 Jeju Conference – Our lab members attending the conference at Jeju Island.
@@ -24,7 +24,7 @@ Jeju Conference – Our lab members attending the conference at Jeju Island.
 <div class="col-md-4 text-center">
 
 <figure>
-<img src="/static/img/gallery/team_dinner.jpg" class="img-fluid">
+<img src="/static/img/gallery/team_dinner.jpg" class="gallery-img">
 
 <figcaption>
 Team Dinner – Our lab members enjoying dinner together.
@@ -37,7 +37,7 @@ Team Dinner – Our lab members enjoying dinner together.
 <div class="col-md-4 text-center">
 
 <figure>
-<img src="/static/img/gallery/dinner_kirawan.jpg" class="img-fluid">
+<img src="/static/img/gallery/dinner_kirawan.jpg" class="gallery-img">
 
 <figcaption>
 Team Dinner – Our lab members enjoying dinner.
@@ -46,11 +46,5 @@ Team Dinner – Our lab members enjoying dinner.
 </figure>
 
 </div>
-
-
-
-
-
-
 
 </div>
