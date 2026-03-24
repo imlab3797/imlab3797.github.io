@@ -46,13 +46,32 @@ This project focuses on scalable video processing pipelines and learning-based a
 
 ### 3) Energy AI and Smart Network Optimization
 
-We develop data-driven methods for energy systems, focusing on interpretability, forecasting, optimization, and platform technologies for next-generation energy networks.
+We develop data-driven methods for energy systems, focusing on interpretability, forecasting, optimization, and platform technologies for next-generation energy networks. Our research supports efficient energy usage analysis, network participation, and AI-enabled policy simulation. 
+**Open Platform Technology for Autonomous Participation of Energy Network Components (06/2019 – 12/2023)** 
+We study open platform technologies that enable energy network components to participate autonomously, supporting flexible and scalable energy ecosystem operation. 
+**Development of Ensemble Methods-Based XAI Energy Platform for Effective Energy Consumption Pattern and Factor Analysis (06/2019 – 12/2023)** 
+This project develops explainable AI (XAI) approaches for analyzing energy consumption patterns and identifying influential factors for improved energy management.
 
 ---
 
 ### 4) Data Platforms for Societal and Industrial Impact
 
-We build AI and data platforms that connect learning, simulation, and data-cloud infrastructure to address large-scale societal and industrial problems.
+We build AI and data platforms that connect learning, simulation, and data-cloud infrastructure to address large-scale societal and industrial problems, including depopulated regions and materials informatics.
+
+**Development and Demonstration of AI Policy Simulation Platform Technology to Solve Social Problems in Depopulated Areas Based on XOps (04/2024 – 12/2027)**  
+This project aims to build an AI policy simulation platform that supports decision-making for depopulated regions by integrating scalable operational workflows and data-driven policy evaluation.
+
+**Data HUB for Solid Electrolyte Materials Based on SyncroLab Data Cloud (07/2024 – 12/2025)**  
+We develop a data-hub platform for solid electrolyte materials, enabling structured data collection, retrieval, and analysis through a cloud-based pipeline to accelerate materials research and discovery.
+
+**Development of AI-Convergence Technologies for Smart City Industry Productivity Innovation (04/2019 – 12/2021)**  
+This project develops AI convergence technologies to improve smart-city industry productivity through practical AI solutions and data-driven services.
+
+**Development of Integrated Cross-Model Data Processing Platform Supporting a Unified Analysis of Various Big Data Models (04/2019 – 12/2021)**  
+We build an integrated platform to support unified analysis across heterogeneous big data models, enabling scalable processing and cross-model insights.
+
+**National Program of Excellence in Software (10/2015 – 12/2021)**  
+This program supports advanced software education and research, strengthening capabilities in AI-driven software systems and applied R&D.
 
 ## Keywords
 
