@@ -6,7 +6,7 @@ group: research
 
 ## Research Background
 
-The Intelligent Media Laboratory (IMLab) focuses on building practical AI systems that can understand complex real-world environments and support decision-making in safety-critical and resource-constrained settings. Our research spans **anomaly understanding for smart surveillance**, **energy and smart-grid intelligence**, and **data-driven platforms for societal and industrial challenges**. We develop machine learning and deep learning methods that are robust, explainable, and deployable—bridging algorithm design with real-world applications.
+The Intelligent Media Laboratory (IMLab) focuses on building practical AI systems that can understand complex real-world environments and support decision-making in safety-critical and resource-constrained settings. Our research spans **anomaly understanding for smart surveillance**, **energy and smart-grid intelligence**, and **data-driven platforms for societal and industrial challenges**. We develop machine learning and deep learning methods that are robust, explainable, and deployable,bridging algorithm design with real-world applications.
 
 ## Research Projects Overview
 
