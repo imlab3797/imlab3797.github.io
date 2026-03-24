@@ -1,6 +1,6 @@
 ## Research Background
 
-The Intelligent Media Laboratory (IMLab) focuses on building practical AI systems that can understand complex real-world environments and support decision-making in safety-critical and resource-constrained settings. Our research spans **anomaly understanding for smart surveillance**, **energy and smart-grid intelligence**, and **data-driven platforms for societal and industrial challenges**. We develop machine learning and deep learning methods that are robust, explainable, and deployable—bridging algorithm design with real-world applications.
+The Intelligent Media Laboratory (IMLab) focuses on building practical AI systems that can understand complex real-world environments and support decision-making in safety-critical and resource-constrained settings. Our research spans **anomaly understanding for smart surveillance**, **energy and smart-grid intelligence**, and **data-driven platforms for societal and industrial challenges**. We develop machine learning and deep learning methods that are robust, explainable, and deployable, bridging algorithm design with real-world applications.
 
 ## Research Projects Overview
 
@@ -10,7 +10,7 @@ Our current and recent projects can be broadly grouped into three directions:
 **Cross-View Adaptive Representation Learning Based Early Prediction Method for Abnormal Behaviors in Multi-space Environments (03/2026 – 02/2029)**  
 This project develops a unified AI framework for **early prediction of abnormal behaviors across multiple interconnected spaces** in smart-city environments. Unlike conventional methods that operate within a single view or space, this research focuses on **cross-view adaptive representation learning**, enabling consistent understanding of objects and behaviors as they move across heterogeneous environments.
 
-The framework integrates **multi-view video streams, spatial transitions, crowd dynamics, and individual behavior patterns** into a shared representation space. By modeling subtle precursor signals—such as changes in motion patterns, crowd density, and directional flow—the system enables **proactive risk assessment and early warning before anomalies occur**.
+The framework integrates **multi-view video streams, spatial transitions, crowd dynamics, and individual behavior patterns** into a shared representation space. By modeling subtle precursor signals, such as changes in motion patterns, crowd density, and directional flow, the system enables **proactive risk assessment and early warning before anomalies occur**.
 
 This approach addresses key limitations of existing surveillance systems by supporting **continuous tracking across spatial boundaries** and improving robustness under varying viewpoints, lighting conditions, and scene complexities. Ultimately, the project aims to establish a **next-generation intelligent surveillance system** for real-time safety monitoring in smart cities.
 

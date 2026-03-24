@@ -48,7 +48,6 @@ Jeju Conference [31 October 2025] – Our lab members attending the conference a
 
 </div>
 
-
 <div class="col-md-4 text-center">
 
 <figure>
@@ -62,7 +61,42 @@ Team Dinner [22 January 2026] – Our lab members enjoying dinner.
 
 </div>
 
+<div class="col-md-4 text-center">
 
+<figure>
+<img src="/static/img/gallery/waqas2026.jpg" class="img-fluid">
+
+<figcaption>
+Waqas Ahmad (Master’s) [17 February 2026] – Celebrating the successful completion of his Master’s degree.
+</figcaption>
+
+</figure>
+
+</div>
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/amjid2026.jpg" class="img-fluid">
+
+<figcaption>
+Amjid Ali (Master’s) [17 February 2026] – Congratulations on successfully completing his Master’s degree at IMLab.
+</figcaption>
+
+</figure>
+
+</div>
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/munsif2026.jpg" class="img-fluid">
+
+<figcaption>
+Muhammad Munsif (Master’s) [17 February 2026] – Congratulations on successfully completing his Master’s degree at IMLab.
+</figcaption>
+
+</figure>
+
+</div>
 
 
 
