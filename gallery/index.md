@@ -40,7 +40,7 @@ Amjid Ali (Master’s) [17 February 2026] – Congratulations on successfully co
 <img src="/static/img/gallery/munsif2026.jpg" class="img-fluid">
 
 <figcaption>
-Muhammad Munsif (Master’s) [17 February 2026] – Congratulations on successfully completing his Master’s degree at IMLab.
+Muhammad Munsif (PhD) [17 February 2026] – Congratulations on successfully completing his PhD degree at IMLab.
 </figcaption>
 
 </figure>
@@ -104,8 +104,44 @@ KingPC Conference [09 May 2025] – Our lab members attending the conference at 
 </div>
 
 
+<div class="col-md-4 text-center">
 
+<figure>
+<img src="/static/img/gallery/waseem2024.jpeg" class="img-fluid">
 
+<figcaption>
+Waeem Ullah (PhD) [16 February 2024] – Congratulations on successfully completing his PhD degree at IMLab.
+</figcaption>
+
+</figure>
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/dinner2023.jpeg" class="img-fluid">
+
+<figcaption>
+Team Dinner [7 August 2025] – Our lab members enjoying dinner together.
+</figcaption>
+
+</figure>
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/dinner2022.jpeg" class="img-fluid">
+
+<figcaption>
+Team Dinner [20 October 2022] – Our lab members enjoying dinner together.
+</figcaption>
+
+</figure>
+
+</div>
 
 
 </div>
