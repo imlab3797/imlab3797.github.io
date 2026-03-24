@@ -18,5 +18,5 @@ startdate: "2026.03.01"
 enddate: "2029.02.28"
 
 pmid: "2026-multiview-multicamera"
-image: "/static/img/research/projects/2026-multiview-multicamera.jpg"
+image: "/static/img/research/projects/2026-Multiview-multicamera.jpg"
 ---
