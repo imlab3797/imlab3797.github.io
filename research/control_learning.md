@@ -1,5 +1,5 @@
 ---
-title: Research in the MIC Lab
+title: Research in the IMLab Lab
 layout: default
 group: research
 ---

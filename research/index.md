@@ -1,3 +1,4 @@
+---
 title: Research in the IMLab Lab
 layout: default
 group: research
@@ -28,7 +29,7 @@ This approach addresses key limitations of existing surveillance systems by supp
 
 <div class="text-center my-4">
   <img src="/static/img/research/projects/2026-Multiview-multicamera.jpg"
-       alt="Connected Vision Project"
+       alt="Cross-View Project"
        class="img-fluid"
        style="max-width: 900px; width: 100%; height: auto;">
 </div>
