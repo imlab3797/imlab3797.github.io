@@ -8,8 +8,6 @@ group: gallery
 
 <div class="row">
 
-<div class="col-md-4 text-center">
-
 
 
 <div class="col-md-4 text-center">
@@ -92,6 +90,7 @@ Team Dinner [25 September 2025] – Our lab members enjoying dinner together.
 </div>
   
 
+<div class="col-md-4 text-center">
 
 <figure>
 <img src="/static/img/gallery/kingpc2025.jpg" class="img-fluid">
