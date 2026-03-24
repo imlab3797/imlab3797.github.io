@@ -5,8 +5,20 @@ The Intelligent Media Laboratory (IMLab) focuses on building practical AI system
 ## Research Projects Overview
 
 Our current and recent projects can be broadly grouped into three directions:
+### 1) Cross-View Adaptive Representation Learning Based Early Prediction Method for Abnormal Behaviors in Multi-space Environments
 
-### 1) Anomaly Understanding and Connected Vision for Safety
+**Cross-View Adaptive Representation Learning Based Early Prediction Method for Abnormal Behaviors in Multi-space Environments (03/2026 – 02/2029)**  
+This project develops a unified AI framework for **early prediction of abnormal behaviors across multiple interconnected spaces** in smart-city environments. Unlike conventional methods that operate within a single view or space, this research focuses on **cross-view adaptive representation learning**, enabling consistent understanding of objects and behaviors as they move across heterogeneous environments.
+
+The framework integrates **multi-view video streams, spatial transitions, crowd dynamics, and individual behavior patterns** into a shared representation space. By modeling subtle precursor signals—such as changes in motion patterns, crowd density, and directional flow—the system enables **proactive risk assessment and early warning before anomalies occur**.
+
+This approach addresses key limitations of existing surveillance systems by supporting **continuous tracking across spatial boundaries** and improving robustness under varying viewpoints, lighting conditions, and scene complexities. Ultimately, the project aims to establish a **next-generation intelligent surveillance system** for real-time safety monitoring in smart cities.
+
+<img class="img-fluid" src="/static/img/research/projects/2026-Multiview-multicamera.jpg" alt="Cross-View Multi-space Scenario" style="max-width: 900px; display: block; margin: 10px auto;" />
+
+*Figure: Cross-view multi-spatial scenarios illustrating hierarchical perspectives and temporal risk evolution. The figure presents three complementary views: (A) a city-level synthesized scene, (B) a high-altitude aerial perspective, and (C) object-centric local views. Across multiple time phases (T1–T3), situations evolve from normal to suspicious and anomalous states. The visualization highlights how object behaviors and movement patterns change over time, enabling progressive risk understanding and early anomaly prediction in complex, multi-space environments.*
+
+### 2) Anomaly Understanding and Connected Vision for Safety
 We study video-based behavior understanding to detect abnormal events and prevent accidents in connected and intelligent environments. Our work targets reliable recognition under challenging conditions and aims to support real-time monitoring in smart cities, transportation systems, and public safety applications.
 
 **Anomaly Behavior Recognition for Accident Prevention in the Connected Vision Environment (03/2023 – 02/2026)**  
@@ -20,7 +32,7 @@ We develop multi-view analysis methods for smart-city surveillance, enabling bet
 **Multi-Viewed Video Data Processing and Analysis Techniques for Intelligent Video Surveillance System (06/2016 – 05/2019)**  
 This project focuses on scalable video processing pipelines and learning-based analysis for intelligent surveillance applications.
 
-### 2) Energy AI and Smart Network Optimization
+### 3) Energy AI and Smart Network Optimization
 We develop data-driven methods for energy systems, focusing on interpretability, forecasting, optimization, and platform technologies for next-generation energy networks. Our research supports efficient energy usage analysis, network participation, and AI-enabled policy simulation.
 
 **Open Platform Technology for Autonomous Participation of Energy Network Components (06/2019 – 12/2023)**  
@@ -29,7 +41,7 @@ We study open platform technologies that enable energy network components to par
 **Development of Ensemble Methods-Based XAI Energy Platform for Effective Energy Consumption Pattern and Factor Analysis (06/2019 – 12/2023)**  
 This project develops explainable AI (XAI) approaches for analyzing energy consumption patterns and identifying influential factors for improved energy management.
 
-### 3) Data Platforms for Societal and Industrial Impact
+### 4) Data Platforms for Societal and Industrial Impact
 We build AI and data platforms that connect learning, simulation, and data-cloud infrastructure to address large-scale societal and industrial problems, including depopulated regions and materials informatics.
 
 **Development and Demonstration of AI Policy Simulation Platform Technology to Solve Social Problems in Depopulated Areas Based on XOps (04/2024 – 12/2027)**  

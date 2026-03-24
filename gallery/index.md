@@ -11,6 +11,19 @@ group: gallery
 <div class="col-md-4 text-center">
 
 <figure>
+<img src="/static/img/gallery/kingpc2025.jpg" class="img-fluid">
+
+<figcaption>
+KingPC Conference [09 May 2025] – Our lab members attending the conference at Chungcheongnam-do Asan-si .
+</figcaption>
+
+</figure>
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<figure>
 <img src="/static/img/gallery/team_dinner.jpg" class="img-fluid">
 
 <figcaption>
