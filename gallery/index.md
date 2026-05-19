@@ -8,18 +8,7 @@ group: gallery
 
 <div class="row">
 
-<div class="col-md-4 text-center">
 
-<figure>
-<img src="/static/img/gallery/KingPc_Gwangju_2026.jpg" class="img-fluid">
-
-<figcaption>
-Our lab memebers attend conference at Chosun University in Gwangju[8 May 2026 ].
-</figcaption>
-
-</figure>
-
-<div class="row">
 
 <div class="col-md-4 text-center">
 
