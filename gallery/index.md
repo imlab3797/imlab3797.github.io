@@ -27,7 +27,7 @@ KingPC Conference [08 May 2026] – Our lab members attended the KingPC Conferen
 <img src="/static/img/gallery/Dinner_Kerawan__21_2026.jpg" class="img-fluid">
 
 <figcaption>
-Team Dinner [21 May 2026] – Our lab members enjoyed dinner together at Kerawan.
+Team Dinner [21 May 2026] – Our lab members enjoyed dinner together at Keravan.
 </figcaption>
 
 </figure>
@@ -134,7 +134,7 @@ KingPC Conference [09 May 2025] – Our lab members attending the conference at 
 <img src="/static/img/gallery/waseem2024.jpeg" class="img-fluid">
 
 <figcaption>
-Waeem Ullah (PhD) [16 February 2024] – Congratulations on successfully completing his PhD degree at IMLab.
+Waseem Ullah (PhD) [16 February 2024] – Congratulations on successfully completing his PhD degree at IMLab.
 </figcaption>
 
 </figure>
@@ -147,7 +147,7 @@ Waeem Ullah (PhD) [16 February 2024] – Congratulations on successfully complet
 <img src="/static/img/gallery/dinner2023.jpeg" class="img-fluid">
 
 <figcaption>
-Team Dinner [7 August 2025] – Our lab members enjoying dinner together.
+Team Dinner [7 August 2023] – Our lab members enjoying dinner together.
 </figcaption>
 
 </figure>
