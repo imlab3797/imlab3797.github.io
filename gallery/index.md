@@ -8,7 +8,31 @@ group: gallery
 
 <div class="row">
 
+<div class="col-md-4 text-center">
 
+<figure>
+<img src="/static/img/gallery/KingPC_Gwangju_2026.jpg" class="img-fluid">
+
+<figcaption>
+KingPC Conference [08 May 2026] – Our lab members attended the KingPC Conference at Chosun University, Gwangju.
+</figcaption>
+
+</figure>
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/Dinner_Kerawan__21_2026.jpg" class="img-fluid">
+
+<figcaption>
+Team Dinner [21 May 2026] – Our lab members enjoyed dinner together at Kerawan.
+</figcaption>
+
+</figure>
+
+</div>
 
 <div class="col-md-4 text-center">
 
