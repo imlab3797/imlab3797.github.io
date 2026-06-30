@@ -8,6 +8,19 @@ group: gallery
 
 <div class="row">
 
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/FYS-IAEP2026.jpg" class="img-fluid">
+
+<figcaption>
+FAIREEH International Academic Exchange Program – Global Study Abroad Pairing Day [27 June 2026] – Our lab members participated in the event held in Seoul, Republic of Korea.
+</figcaption>
+
+</figure>
+
+</div>
+
 
 <div class="col-md-4 text-center">
 
@@ -22,18 +35,7 @@ FAIREEH Young Scholars Workshop on Data Convergence and Applications [09 June 20
 
 </div>
 
-<div class="col-md-4 text-center">
 
-<figure>
-<img src="/static/img/gallery/FYS-IAEP2026.jpg" class="img-fluid">
-
-<figcaption>
-FAIREEH International Academic Exchange Program – Global Study Abroad Pairing Day [27 June 2026] – Our lab members participated in the event held in Seoul, Republic of Korea.
-</figcaption>
-
-</figure>
-
-</div>
 
 
 
