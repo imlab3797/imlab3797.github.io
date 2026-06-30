@@ -8,7 +8,7 @@ kr_name:
 timeline_name: Afaq
 sortdate: [2024-03-01]
 positions:
-  - name: "Master Student"
+  - name: "Ph.D. Student"
     startdate: [2024-03-01]
     enddate: []
 image: /static/members/mAfaq.jpg
