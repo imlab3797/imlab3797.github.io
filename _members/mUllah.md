@@ -6,11 +6,11 @@ title: Mohibullah
 name: Mohibullah
 kr_name:
 timeline_name: Ullah
-sortdate: [2024-03-01]
+sortdate: [2025-03-01]
 positions:
   - name: "Master Student"
-    startdate: [2024-03-01]
-    enddate: []
+    startdate: [2025-03-01]
+    enddate: [2026-06-11]
 image: /static/members/mUllah.jpg
 altimage: /static/members/mUllah.jpg
 subsequent:
@@ -24,8 +24,6 @@ researchgate:
 website:
 iris:
 description: "
-**Mohibullah** is a Master’s student at **Sejong University**, Seoul, South Korea. He received his bachelor’s degree in Computer Science from **Abdul Wali Khan University, Mardan**. He is currently working on **computer vision**, with a focus on **multi-view tracking** at the **Intelligent Media Laboratory (IMLab)**.
-
-His research interests include **computer vision**, **multi-view tracking**, and **visual understanding**.
+**Mohibullah** received his bachelor’s degree in Computer Science from **Abdul Wali Khan University, Mardan**. He earned his **M.S. degree** from **Sejong University**.
 "
 ---
