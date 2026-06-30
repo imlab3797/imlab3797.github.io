@@ -13,7 +13,7 @@ positions:
     enddate: [2026-06-11]
 image: /static/members/mUllah.jpg
 altimage: /static/members/mUllah.jpg
-subsequent:
+subsequent: M.S. Graduate
 pronouns:
 email:
 scholar:
@@ -24,6 +24,6 @@ researchgate:
 website:
 iris:
 description: "
-**Mohibullah** received his bachelor’s degree in Computer Science from **Abdul Wali Khan University, Mardan**. He earned his **M.S. degree** from **Sejong University**.
+**Mohibullah** received his bachelor's degree in **Computer Science** from **Abdul Wali Khan University, Mardan**, Pakistan. He earned his **M.S. degree** from **Sejong University**, Seoul, South Korea.
 "
 ---
