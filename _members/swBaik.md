@@ -10,8 +10,8 @@ positions:
   - name: "Professor"
     startdate: [2002-01-01]
     enddate:
-image: /static/members/swBaik.jpg
-altimage: /static/members/swBaik.jpg
+image: /static/members/swBaik.png
+altimage: /static/members/swBaik.png
 email: sbaik@sejong.ac.kr
 scholar: 9tXoIf0AAAAJ
 github:
