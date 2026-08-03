@@ -10,7 +10,7 @@ sortdate: [2019-09-01]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]
-    enddate: [2024-08-21]
+    enddate: []
 image: /static/members/nKhan.jpg
 altimage: /static/members/nKhan.jpg
 subsequent: Postdoctoral Scholar, Yonsei University, South Korea (Oct 2024 - Present)
