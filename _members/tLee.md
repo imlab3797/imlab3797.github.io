@@ -6,7 +6,7 @@ title: Tuong Le
 name: Tuong Le
 kr_name:
 timeline_name: Tuong
-sortdate: [2017-02-01]
+sortdate: [2017-02-02]
 positions:
   - name: "Ph.D. Student"
     startdate: [2017-03-01]
