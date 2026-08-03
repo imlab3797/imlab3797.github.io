@@ -6,7 +6,7 @@ title: Amin Ullah
 name: Amin Ullah
 kr_name:
 timeline_name: Amin
-sortdate: [2021-03-01]
+sortdate: [2017-03-01]
 positions:
   - name: "Postdoctoral Researcher"
     startdate: [2021-02-01]
