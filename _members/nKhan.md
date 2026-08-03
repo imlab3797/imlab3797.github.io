@@ -6,11 +6,11 @@ title: Noman Khan
 name: Noman Khan
 kr_name:
 timeline_name: Noman
-sortdate: [2019-09-01]
+sortdate: [2019-08-31]
 positions:
   - name: "Ph.D. Student"
-    startdate: [2019-09-01]
-    enddate: []
+    startdate: [2019-08-31]
+    enddate: [2025-02-28]
 image: /static/members/nKhan.jpg
 altimage: /static/members/nKhan.jpg
 subsequent: Postdoctoral Scholar, Yonsei University, South Korea (Oct 2024 - Present)
