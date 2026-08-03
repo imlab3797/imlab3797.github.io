@@ -6,7 +6,7 @@ title: Jamil Ahmad
 name: Jamil Ahmad
 kr_name:
 timeline_name: Jamil
-sortdate: [2014-03-01]
+sortdate: [2015-01-01]
 positions:
   - name: "Ph.D. Student"
     startdate: [2014-03-01]
