@@ -8,6 +8,20 @@ group: gallery
 
 <div class="row">
 
+
+<div class="col-md-4 text-center">
+
+<figure>
+<img src="/static/img/gallery/FYS-IAEP2026-Sweden.jpg" class="img-fluid">
+
+<figcaption>
+FAIREEH International Academic Exchange Program [07 July 2026] – Our lab members participated in the Global Study Abroad Pairing Day, welcoming a WASP delegation from Sweden at Sejong University, Seoul, Republic of Korea.
+</figcaption>
+
+</figure>
+
+</div>
+
 <div class="col-md-4 text-center">
 
 <figure>
