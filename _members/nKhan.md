@@ -6,7 +6,7 @@ title: Noman Khan
 name: Noman Khan
 kr_name:
 timeline_name: Noman
-sortdate: [2019-09-31]
+sortdate: [2019-09-29]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-08-31]
