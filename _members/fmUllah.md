@@ -6,7 +6,7 @@ title: Fath U Min Ullah
 name: Fath U Min Ullah
 kr_name:
 timeline_name: Fath
-sortdate: [2019-09-01]
+sortdate: [2019-09-05]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]

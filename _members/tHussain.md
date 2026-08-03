@@ -6,7 +6,7 @@ title: Tanveer Hussain
 name: Tanveer Hussain
 kr_name:
 timeline_name: Tanveer
-sortdate: [2019-09-01]
+sortdate: [2019-09-04]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]

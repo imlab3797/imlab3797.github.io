@@ -6,7 +6,7 @@ title: Dong Keon Yon
 name: Dong Keon Yon
 kr_name: 연동건
 timeline_name: Dong Keon
-sortdate: [2019-09-01]
+sortdate: [2019-09-08]
 positions:
   - name: "Ph.D. Student"
     startdate: []

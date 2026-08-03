@@ -6,7 +6,7 @@ title: Waseem Ullah
 name: Waseem Ullah
 kr_name:
 timeline_name: Waseem
-sortdate: [2019-09-01]
+sortdate: [2019-09-07]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]

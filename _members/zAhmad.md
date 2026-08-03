@@ -6,7 +6,7 @@ title: Zulfiqar Ahmad Khan
 name: Zulfiqar Ahmad Khan
 kr_name:
 timeline_name: Zulfiqar
-sortdate: [2019-10-01]
+sortdate: [2019-09-10]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]

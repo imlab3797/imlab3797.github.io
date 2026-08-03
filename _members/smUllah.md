@@ -6,7 +6,7 @@ title: Samee Ullah
 name: Samee Ullah
 kr_name:
 timeline_name: Samee
-sortdate: [2019-09-01]
+sortdate: [2019-09-06]
 positions:
   - name: "Ph.D. Student"
     startdate: [2019-09-01]
